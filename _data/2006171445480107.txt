@@ -1,0 +1,8 @@
+C9Mx0ADAFTAR TAGIHAN REKENING AIR
+NO. SAMBUNGAN  : 100004
+NAMA         : Nia Kurniawati                          GOLONGAN     : 1
+ALAMAT       : Ciawitali Selatan No 57 RT/RW 03/19     RAYON        : 11219
+ Tagihan        Stand Meter                  Rincian Biaya                Total
+            Lalu  Kini Pakai    Uang Air  Beban Angsuran      Denda            
+ 1. 202004   514   523     9      16,200 15,000        0      7,500      38,700
+                                16,200   15,000        0      7,500      38,700

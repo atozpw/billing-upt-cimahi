@@ -1,0 +1,1008 @@
+2018-12-21 14:38:28;1812211432427555;050101;admin;192.168.20.10;SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`pdam_billing_oki`.`tm_stand_meter`, CONSTRAINT `tm_stand_meter_ibfk_3` FOREIGN KEY (`kar_id`) REFERENCES `tm_karyawan` (`kar_id`) ON UPDATE CASCADE)
+2018-12-21 14:38:49;1812211432427555;050101;admin;192.168.20.10;SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`pdam_billing_oki`.`tm_stand_meter`, CONSTRAINT `tm_stand_meter_ibfk_3` FOREIGN KEY (`kar_id`) REFERENCES `tm_karyawan` (`kar_id`) ON UPDATE CASCADE)
+2018-12-21 14:48:41;_TOKN;_KODE;_USER;192.168.20.200;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1812211448418403,2,INET_ATON('192.168.20.200'),'','')
+2018-12-21 14:48:48;_TOKN;_KODE;_USER;192.168.20.200;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1812211448482112,2,INET_ATON('192.168.20.200'),'','')
+2018-12-21 14:48:49;_TOKN;_KODE;_USER;192.168.20.200;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1812211448492951,2,INET_ATON('192.168.20.200'),'','')
+2018-12-21 14:48:50;_TOKN;_KODE;_USER;192.168.20.200;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1812211448505911,2,INET_ATON('192.168.20.200'),'','')
+2018-12-21 14:48:53;_TOKN;_KODE;_USER;192.168.20.200;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1812211448536285,2,INET_ATON('192.168.20.200'),'','')
+2018-12-21 14:48:53;_TOKN;_KODE;_USER;192.168.20.200;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1812211448530230,2,INET_ATON('192.168.20.200'),'','')
+2018-12-21 14:48:53;_TOKN;_KODE;_USER;192.168.20.200;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1812211448533765,2,INET_ATON('192.168.20.200'),'','')
+2018-12-21 14:49:05;_TOKN;_KODE;_USER;192.168.20.200;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1812211449057915,2,INET_ATON('192.168.20.200'),'','')
+2018-12-21 14:49:12;_TOKN;_KODE;_USER;192.168.20.200;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1812211449126937,2,INET_ATON('192.168.20.200'),'','')
+2018-12-21 14:49:13;_TOKN;_KODE;_USER;192.168.20.200;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1812211449135038,2,INET_ATON('192.168.20.200'),'','')
+2018-12-21 14:49:17;_TOKN;_KODE;_USER;192.168.20.200;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1812211449176151,2,INET_ATON('192.168.20.200'),'','')
+2018-12-21 14:53:03;1812211452038788;050101;adminbta;192.168.20.10;SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`pdam_billing_oki`.`tm_stand_meter`, CONSTRAINT `tm_stand_meter_ibfk_3` FOREIGN KEY (`kar_id`) REFERENCES `tm_karyawan` (`kar_id`) ON UPDATE CASCADE)
+2018-12-21 14:53:15;1812211452038788;050101;adminbta;192.168.20.10;SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`pdam_billing_oki`.`tm_stand_meter`, CONSTRAINT `tm_stand_meter_ibfk_3` FOREIGN KEY (`kar_id`) REFERENCES `tm_karyawan` (`kar_id`) ON UPDATE CASCADE)
+2018-12-21 15:31:33;_TOKN;_KODE;_USER;192.168.20.10;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1812211531332687,2,INET_ATON('192.168.20.10'),'','')
+2018-12-21 15:40:05;1812211536026798;050101;adminbta;192.168.20.10;SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '100002' for key 'PRIMARY'
+2018-12-21 16:36:27;_TOKN;_KODE;_USER;20.21.21.34;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1812211636279303,2,INET_ATON('20.21.21.34'),'','')
+2018-12-23 13:46:59;1812231331032567;050101;adminbta;20.21.21.34;SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '100006' for key 'PRIMARY'
+2018-12-23 13:47:18;1812231331032567;050101;adminbta;20.21.21.34;SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '100006' for key 'PRIMARY'
+2018-12-26 10:58:20;1812261058201186;090501;admin;192.168.20.200;File proses : form_info.php tidak ditemukan
+2018-12-26 10:58:38;1812261058387864;090501;admin;192.168.20.200;File proses : form_info.php tidak ditemukan
+2018-12-26 10:59:07;1812261059077521;090501;adminbta;192.168.20.200;File proses : form_info.php tidak ditemukan
+2018-12-26 11:02:05;1812261102056678;090501;admin;192.168.20.10;File proses : form_info.php tidak ditemukan
+2018-12-26 16:39:22;_TOKN;_KODE;_USER;192.168.20.200;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1812261639229334,2,INET_ATON('192.168.20.200'),'','')
+2019-01-10 14:13:23;1901101413231605;090501;adminbta;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-01-10 14:13:30;1901101413300587;;adminbta;20.21.21.34;File proses belum didefinisikan
+2019-01-10 14:20:40;1901101420400428;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-01-11 09:18:49;1901110918496785;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-01-11 09:27:23;1901110927239298;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-01-11 15:10:37;_TOKN;_KODE;_USER;20.21.21.34;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1901111510378588,2,INET_ATON('20.21.21.34'),'','')
+2019-01-20 20:58:10;1901202058100659;090501;adminbta;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-01-25 17:58:48;1901251758481315;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-02-26 14:30:24;1902261430246703;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-02-26 14:33:12;1902261432049445;050101;admin;20.21.21.34;SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`pdam_billing_oki`.`tm_pelanggan`, CONSTRAINT `tm_pelanggan_ibfk_5` FOREIGN KEY (`dkd_kd`) REFERENCES `tr_dkd` (`dkd_kd`) ON UPDATE CASCADE)
+2019-03-06 16:40:10;1903061640107602;090501;adminbta;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-03-19 14:04:25;1903191404254490;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-03-27 19:05:17;1903271905170157;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-03-27 19:13:59;1903271913599276;090501;adminbta;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-03-29 14:44:48;_TOKN;_KODE;_USER;20.21.21.34;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1903291444487157,2,INET_ATON('20.21.21.34'),'','')
+2019-04-01 08:26:08;_TOKN;_KODE;_USER;20.21.21.34;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1904010826083725,2,INET_ATON('20.21.21.34'),'','')
+2019-04-01 08:26:32;1904010826321819;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-04-08 15:48:17;_TOKN;_KODE;_USER;20.21.21.34;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1904081548175889,2,INET_ATON('20.21.21.34'),'','')
+2019-04-12 08:53:57;1904120853573305;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-04-15 07:55:20;1904150755202407;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-04-15 12:57:37;1904151257372900;;admin;192.168.20.10;File proses belum didefinisikan
+2019-04-15 12:58:36;1904151258363135;;admin;192.168.20.10;File proses belum didefinisikan
+2019-04-15 12:58:51;1904151258510556;;admin;192.168.20.10;File proses belum didefinisikan
+2019-04-15 13:12:29;1904151312292551;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-04-15 14:04:02;_TOKN;_KODE;_USER;20.21.21.34;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1904151404024998,2,INET_ATON('20.21.21.34'),'','')
+2019-04-15 16:27:36;_TOKN;_KODE;_USER;20.21.21.34;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1904151627361522,2,INET_ATON('20.21.21.34'),'','')
+2019-04-15 16:47:37;1904151647373103;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-16 09:26:34;_TOKN;_KODE;_USER;20.21.21.34;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1904160926348085,2,INET_ATON('20.21.21.34'),'','')
+2019-04-16 09:43:49;1904160943493163;090501;admin;192.168.20.10;File proses : form_info.php tidak ditemukan
+2019-04-16 09:56:57;1904160956578229;;admin;192.168.20.10;File proses belum didefinisikan
+2019-04-16 09:57:09;1904160957099707;;admin;192.168.20.10;File proses belum didefinisikan
+2019-04-16 09:57:19;1904160957194124;;admin;192.168.20.10;File proses belum didefinisikan
+2019-04-16 09:58:10;1904160958103776;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-16 09:58:26;1904160958265361;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-16 10:22:15;_TOKN;_KODE;_USER;20.21.21.34;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1904161022151088,2,INET_ATON('20.21.21.34'),'','')
+2019-04-16 10:26:37;1904161026375783;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-16 10:28:54;1904161028544269;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-16 10:30:49;1904161030490907;;admin;192.168.20.10;File proses belum didefinisikan
+2019-04-16 10:37:55;1904161037553262;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-18 08:16:09;1904180816096363;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-18 08:52:09;1904180852092115;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-18 08:53:51;1904180853516306;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-18 09:35:49;1904180935491838;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-18 09:44:16;1904180944160282;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-18 09:44:22;1904180944225671;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-18 09:44:25;1904180944259119;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-18 09:48:35;1904180948359409;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-04-18 09:48:58;1904180948589290;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-04-18 09:56:15;1904180956154191;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-04-18 09:56:28;1904180956289737;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 10:01:35;1904181001357471;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 10:03:28;1904181003282596;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-04-18 12:11:40;1904181211406707;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 14:44:13;_TOKN;_KODE;_USER;20.21.21.34;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1904181444135865,2,INET_ATON('20.21.21.34'),'','')
+2019-04-18 15:11:24;1904181511244079;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 15:11:32;1904181511329371;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 15:11:41;1904181511417194;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 15:11:48;1904181511482447;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 15:11:50;1904181511506310;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 15:11:55;1904181511556995;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 15:12:10;1904181512105538;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 15:17:10;1904181517101116;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 15:22:18;1904181522187489;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 16:42:10;1904181642101933;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 16:43:35;1904181643353363;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 16:44:22;1904181644225206;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 16:45:11;1904181645111569;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 16:45:41;1904181645415753;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 16:48:02;1904181648022991;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 16:48:14;1904181648147450;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 16:49:23;1904181649234853;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 16:52:30;1904181652306802;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 16:53:35;1904181653356463;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 16:53:39;1904181653397694;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 16:53:53;1904181653534568;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 16:54:28;1904181654270814;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 16:55:39;1904181655392094;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 16:56:49;1904181656490453;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 16:57:03;1904181657039864;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 16:57:16;1904181657166586;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 16:57:23;1904181657237674;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-18 16:58:02;1904181658024484;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-22 08:26:43;1904220826437233;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-22 08:29:11;1904220829112936;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-22 08:33:01;1904220833013618;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-22 08:34:03;1904220834032480;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-22 09:53:31;1904220953317099;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-22 09:56:42;1904220956425278;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-04-22 11:09:49;1904221109492018;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-22 11:10:03;1904221110032742;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-22 11:10:17;1904221110172828;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-22 11:10:32;1904221110326666;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-23 07:50:14;1904230750149510;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-23 07:50:45;1904230750450742;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-23 07:50:55;1904230750556723;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-23 07:51:07;1904230751075353;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-23 07:51:29;1904230751298348;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-23 07:53:40;1904230753405774;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-23 07:53:44;1904230753446661;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-23 07:53:48;1904230753484464;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-23 07:53:54;1904230753549052;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-23 07:54:26;1904230754268554;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-23 07:55:10;1904230755100238;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-23 08:14:38;1904230814383882;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-23 09:29:27;1904230929272723;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-23 09:30:52;1904230930522118;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-23 09:32:36;1904230932362381;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-23 09:32:56;1904230932563604;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-23 09:35:21;1904230935203703;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-23 09:35:42;1904230935422993;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-23 10:10:07;1904231010065487;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-23 10:19:20;1904231018580839;090301;0111230;20.21.21.34;SELECT a.pel_no,CONCAT(a.pel_no,' [',IFNULL(e.ref_no,'00.00.000.000'),']') AS ref_no,a.pel_nama,a.pel_alamat,a.dkd_kd,a.gol_kode,SUM(IFNULL(d.rek_sts,0)) AS rek_lembar,SUM(IFNULL(getTotal(d.rek_total,d.rek_angsuran,d.rek_bln,d.rek_thn),0)) AS rek_total,b.kps_kode,b.kps_ket,c.kp_kode,c.kp_ket FROM tm_pelanggan a JOIN tr_kondisi_ps b ON(b.kps_kode=a.kps_kode AND a.kp_kode='30') JOIN tr_kota_pelayanan c ON(c.kp_kode=a.kp_kode) LEFT JOIN ref_pelanggan e ON(e.pel_no=a.pel_no) LEFT JOIN tm_rekening d ON(d.pel_no=a.pel_no AND d.rek_sts=1 AND d.rek_byr_sts=0) WHERE a.pel_no='M.. S.YAF.E'I' OR UPPER(a.pel_nama) LIKE '%M.. S.YAF.E'I%' OR e.ref_no='M.. S.YAF.E'I' GROUP BY a.pel_no ORDER BY a.pel_nama LIMIT 0,10
+2019-04-23 10:20:04;1904231019404219;090301;0111230;20.21.21.34;SELECT a.pel_no,CONCAT(a.pel_no,' [',IFNULL(e.ref_no,'00.00.000.000'),']') AS ref_no,a.pel_nama,a.pel_alamat,a.dkd_kd,a.gol_kode,SUM(IFNULL(d.rek_sts,0)) AS rek_lembar,SUM(IFNULL(getTotal(d.rek_total,d.rek_angsuran,d.rek_bln,d.rek_thn),0)) AS rek_total,b.kps_kode,b.kps_ket,c.kp_kode,c.kp_ket FROM tm_pelanggan a JOIN tr_kondisi_ps b ON(b.kps_kode=a.kps_kode AND a.kp_kode='30') JOIN tr_kota_pelayanan c ON(c.kp_kode=a.kp_kode) LEFT JOIN ref_pelanggan e ON(e.pel_no=a.pel_no) LEFT JOIN tm_rekening d ON(d.pel_no=a.pel_no AND d.rek_sts=1 AND d.rek_byr_sts=0) WHERE a.pel_no='M.. S.YAF.E'I' OR UPPER(a.pel_nama) LIKE '%M.. S.YAF.E'I%' OR e.ref_no='M.. S.YAF.E'I' GROUP BY a.pel_no ORDER BY a.pel_nama LIMIT 0,10
+2019-04-23 10:21:15;1904231021156440;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-23 12:23:35;1904231223355746;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-24 08:44:56;1904240844564186;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-24 08:49:29;1904240848371283;050101;admin;20.21.21.34;SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0)' at line 1
+2019-04-24 08:58:26;1904240858260703;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-24 15:56:31;1904241556311961;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-24 16:03:54;1904241603547921;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-04-24 19:13:23;1904241913238711;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-04-25 09:21:02;1904250919432281;050101;admin;20.21.21.34;SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0)' at line 1
+2019-04-25 10:01:47;_TOKN;_KODE;_USER;20.21.21.34;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1904251001473345,2,INET_ATON('20.21.21.34'),'','')
+2019-04-25 13:50:59;_TOKN;_KODE;_USER;20.21.21.34;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1904251350593083,2,INET_ATON('20.21.21.34'),'','')
+2019-04-26 10:14:01;1904261014015347;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-26 10:14:07;1904261014078893;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-26 10:14:10;1904261014107075;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-26 10:14:14;1904261014141691;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-26 10:14:18;1904261014185348;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-26 10:58:01;1904261058016516;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-26 14:53:27;1904261453270152;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-26 14:53:36;1904261453360478;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-26 14:55:52;1904261455521929;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-04-29 10:29:56;1904291029565377;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-29 10:30:38;1904291030380618;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-29 10:30:49;1904291030497759;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-29 11:21:54;1904291121548753;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-29 11:53:02;1904291153024220;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-04-29 11:53:12;1904291153128938;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-04-29 13:34:58;1904291334583004;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-04-29 20:16:22;1904292016224469;;admin;20.21.21.34;File proses belum didefinisikan
+2019-04-30 07:31:43;_TOKN;_KODE;_USER;20.21.21.34;mysql:dbname=pdam_billing_oki;host=192.168.0.101
+2019-04-30 08:57:19;_TOKN;_KODE;_USER;20.21.21.34;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1904300857198061,2,INET_ATON('20.21.21.34'),'','')
+2019-04-30 15:17:46;1904301517461949;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-04-30 15:18:18;1904301518185832;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-05-01 11:03:06;1905011103064567;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-01 11:03:10;1905011103107099;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-01 11:03:19;1905011103198334;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-01 11:04:05;1905011104054294;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-01 11:04:11;1905011104112259;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-01 11:04:16;1905011104169767;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-01 11:07:46;1905011107464190;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-01 11:07:56;1905011107562852;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-01 11:15:03;1905011115031878;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-01 11:15:16;1905011115166165;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-01 11:20:10;1905011120100977;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-01 11:20:42;1905011120428340;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-01 12:34:23;1905011234230129;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-01 12:38:03;1905011238038300;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-05-01 13:02:46;1905011302460736;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-01 13:44:58;1905011344583620;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-01 13:48:28;1905011348280450;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-01 13:49:49;1905011349498176;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-01 13:49:54;1905011349547940;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-01 13:49:57;1905011349579000;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-01 13:50:34;1905011350341765;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-01 13:50:37;1905011350372759;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-01 14:07:36;1905011407365694;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-01 14:07:39;1905011407392212;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-01 14:07:50;1905011407506654;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-01 14:08:04;1905011408041033;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-01 14:08:42;1905011408427485;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-01 14:08:45;1905011408459148;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-02 10:47:06;1905021047061125;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-02 10:47:11;1905021047113969;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-02 10:47:16;1905021047160818;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-02 10:47:19;1905021047198800;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-02 10:48:47;1905021048472295;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-02 10:48:51;1905021048515914;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-02 10:49:24;1905021049233903;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-02 10:49:30;1905021049303283;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-02 10:49:35;1905021049352506;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-02 10:49:48;1905021049480360;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-02 10:49:54;1905021049548636;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-02 10:49:58;1905021049580832;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-02 10:50:02;1905021050025101;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-02 10:50:06;1905021050062485;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-02 10:50:11;1905021050115394;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-02 10:50:15;1905021050159396;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-02 10:50:35;1905021050350013;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-02 10:50:48;1905021050486620;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-02 10:51:33;1905021051331942;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-02 10:51:58;1905021051584467;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-02 10:52:02;1905021052028346;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-02 10:52:32;1905021052323371;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-02 10:52:46;1905021052464319;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-02 10:52:57;1905021052575273;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-02 10:53:14;1905021053144961;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-06 15:02:16;_TOKN;_KODE;_USER;20.21.21.34;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1905061502168541,2,INET_ATON('20.21.21.34'),'','')
+2019-05-07 01:11:33;1905070059068461;050101;admin;20.21.21.34;SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0)' at line 1
+2019-05-07 09:42:19;1905070942193839;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-05-08 08:07:19;1905080807190140;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-08 08:20:30;1905080820303509;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-09 09:13:24;1905090913243170;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-09 09:14:51;1905090914511955;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-09 11:50:17;_TOKN;_KODE;_USER;20.21.21.34;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1905091150177707,2,INET_ATON('20.21.21.34'),'','')
+2019-05-10 08:30:52;1905100830525018;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-10 08:31:00;1905100831008011;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-10 09:43:28;1905100943287963;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-10 09:43:33;1905100943338815;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-10 09:43:36;1905100943368421;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-10 09:43:41;1905100943413299;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-10 09:44:26;1905100944262802;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-10 09:50:49;1905100950492797;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-10 09:52:29;1905100952295642;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-10 09:52:35;1905100952356794;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-10 09:52:38;1905100952380589;;0111230;20.21.21.34;File proses belum didefinisikan
+2019-05-13 10:06:01;_TOKN;_KODE;_USER;20.21.21.34;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1905131006014017,2,INET_ATON('20.21.21.34'),'','')
+2019-05-13 10:58:02;1905131058027302;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-05-13 11:03:21;1905131103219984;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-05-13 11:05:30;1905131105303317;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-13 11:05:44;1905131105445403;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-13 11:05:56;1905131105565869;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-14 11:33:01;1905141133018932;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-05-15 13:56:54;_TOKN;_KODE;_USER;20.21.21.34;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1905151356549483,2,INET_ATON('20.21.21.34'),'','')
+2019-05-16 11:08:47;1905161108472545;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-05-17 08:08:51;1905170808517437;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-05-17 11:00:53;1905171100531173;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-17 11:01:00;1905171101009169;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-17 11:01:09;1905171101094652;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-17 11:20:27;1905171120273935;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-17 15:16:57;_TOKN;_KODE;_USER;20.21.21.34;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1905171516575581,2,INET_ATON('20.21.21.34'),'','')
+2019-05-20 10:52:06;1905201052067231;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-20 11:45:05;1905201145050572;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-20 11:45:34;1905201145349218;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-20 14:18:16;1905201418167679;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-21 13:22:36;1905211322055967;080301;0108190;20.21.21.34;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(1905211322055967,NOW(),'15',,'0108190','20.21.21.34','N',,0,NOW(),1)
+2019-05-23 08:43:07;1905230843078851;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-23 08:43:16;1905230843166243;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-23 08:43:26;1905230843267046;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-24 08:25:53;1905240825534791;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-24 08:41:57;1905240841574170;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-05-24 10:06:06;1905241003454330;080301;0108190;20.21.21.34;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(1905241003454330,NOW(),'11',,'0108190','20.21.21.34','N',,0,NOW(),1)
+2019-05-24 10:35:45;1905241035183600;080301;0108190;20.21.21.34;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(1905241035183600,NOW(),'17',,'0108190','20.21.21.34','N',,0,NOW(),1)
+2019-05-24 11:32:27;1905241132270286;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-24 11:32:50;1905241132508718;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-24 11:32:59;1905241132598587;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-24 11:33:06;1905241133060641;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-24 11:33:12;1905241133127599;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-24 14:10:32;1905241410322121;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-05-24 14:10:35;1905241410353958;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-05-24 14:44:45;1905241444455849;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-05-27 14:40:18;1905271440182697;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-05-27 15:12:59;1905271512597993;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-05-27 15:13:10;1905271513103210;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-05-27 15:13:19;1905271513194693;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-05-27 15:13:28;1905271513281652;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-05-27 15:13:33;1905271513336600;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-05-27 15:17:47;1905271517475291;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-27 15:18:45;1905271518458067;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-28 10:46:37;1905281046373167;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-28 11:19:54;1905281119545012;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-05-28 12:36:18;1905281236186611;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-28 12:36:23;1905281236239993;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-28 12:36:27;1905281236270351;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-28 12:38:21;1905281238219561;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-28 12:38:25;1905281238258313;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-28 12:38:27;1905281238274928;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-28 12:39:03;1905281239033368;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-28 12:40:12;1905281240128522;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-05-29 12:05:11;1905291202440631;050101;admin;20.21.21.34;SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '301260' for key 'PRIMARY'
+2019-05-29 13:18:04;1905291318033120;;admin;20.21.21.34;File proses belum didefinisikan
+2019-05-29 13:21:59;1905291321593485;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-05-31 15:32:42;_TOKN;_KODE;_USER;20.21.21.34;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1905311532427824,2,INET_ATON('20.21.21.34'),'','')
+2019-06-10 09:22:15;1906100922153955;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-06-10 11:17:49;1906101117494915;;admin;20.21.21.34;File proses belum didefinisikan
+2019-06-10 11:17:59;1906101117595890;;admin;20.21.21.34;File proses belum didefinisikan
+2019-06-10 11:18:10;1906101118109125;;admin;20.21.21.34;File proses belum didefinisikan
+2019-06-10 15:01:37;1906101501372630;;admin;20.21.21.34;File proses belum didefinisikan
+2019-06-10 15:01:41;1906101501415938;;admin;20.21.21.34;File proses belum didefinisikan
+2019-06-11 14:09:02;1906111409027718;;admin;20.21.21.34;File proses belum didefinisikan
+2019-06-11 14:09:28;1906111409284816;;admin;20.21.21.34;File proses belum didefinisikan
+2019-06-11 14:11:18;1906111411181071;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-06-14 10:41:18;1906141041188912;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-06-14 10:42:00;1906141042006793;090501;admin;20.21.21.34;File proses : form_info.php tidak ditemukan
+2019-06-14 11:31:10;1906141131107172;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-06-17 11:02:18;_TOKN;_KODE;_USER;20.21.21.34;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1906171102187813,2,INET_ATON('20.21.21.34'),'','')
+2019-06-24 08:49:50;1906240849502887;090501;admin;20.21.21.46;File proses : form_info.php tidak ditemukan
+2019-06-24 09:36:39;1906240936399885;;admin;20.21.21.34;File proses belum didefinisikan
+2019-06-24 09:36:51;1906240936511790;;admin;20.21.21.34;File proses belum didefinisikan
+2019-06-25 09:36:50;1906250931000035;090401;admin;20.21.21.46;INSERT INTO tm_surat_peringatan (sr_nomor,pel_no,surat_tgl,surat_tipe,surat_ket,kar_id)	VALUES(1906250931000035,'300081',NOW(),'1','-','admin')
+2019-06-25 09:36:50;1906250931000035;090401;admin;20.21.21.46;INSERT INTO tm_surat_peringatan (sr_nomor,pel_no,surat_tgl,surat_tipe,surat_ket,kar_id)	VALUES(1906250931000035,'300078',NOW(),'1','-','admin')
+2019-06-26 09:01:21;1906260820306823;050101;admin;20.21.21.46;SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'YETNO BANYU',gol_kode='3B',kp_kode='30',dkd_kd='300102',kar_id='admin',kps_kode=' at line 1
+2019-06-26 09:01:46;1906260820306823;050101;admin;20.21.21.46;SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'YETNO BANYU',gol_kode='3B',kp_kode='30',dkd_kd='300102',kar_id='admin',kps_kode=' at line 1
+2019-06-26 11:51:33;1906261151335436;090501;admin;20.21.21.46;File proses : form_info.php tidak ditemukan
+2019-06-30 07:06:59;1906300706595226;;admin;20.21.21.46;File proses belum didefinisikan
+2019-06-30 07:07:34;1906300707343170;;admin;20.21.21.46;File proses belum didefinisikan
+2019-06-30 07:08:17;1906300708178018;;admin;20.21.21.46;File proses belum didefinisikan
+2019-06-30 07:13:00;1906300713006560;;admin;20.21.21.46;File proses belum didefinisikan
+2019-06-30 07:13:09;1906300713091534;;admin;20.21.21.46;File proses belum didefinisikan
+2019-06-30 07:13:27;1906300713272672;;admin;20.21.21.46;File proses belum didefinisikan
+2019-07-02 09:05:14;1907020905146313;;admin;20.21.21.46;File proses belum didefinisikan
+2019-07-02 09:05:28;1907020905280339;;admin;20.21.21.46;File proses belum didefinisikan
+2019-07-02 09:05:46;1907020905461062;;admin;20.21.21.46;File proses belum didefinisikan
+2019-07-02 15:28:59;1907021507260142;090401;admin;20.21.21.46;INSERT INTO tm_surat_peringatan (sr_nomor,pel_no,surat_tgl,surat_tipe,surat_ket,kar_id)	VALUES(1907021507260142,'300221',NOW(),'1','-','admin')
+2019-07-02 15:28:59;1907021507260142;090401;admin;20.21.21.46;INSERT INTO tm_surat_peringatan (sr_nomor,pel_no,surat_tgl,surat_tipe,surat_ket,kar_id)	VALUES(1907021507260142,'300213',NOW(),'1','-','admin')
+2019-07-02 15:28:59;1907021507260142;090401;admin;20.21.21.46;INSERT INTO tm_surat_peringatan (sr_nomor,pel_no,surat_tgl,surat_tipe,surat_ket,kar_id)	VALUES(1907021507260142,'300204',NOW(),'1','-','admin')
+2019-07-02 15:28:59;1907021507260142;090401;admin;20.21.21.46;INSERT INTO tm_surat_peringatan (sr_nomor,pel_no,surat_tgl,surat_tipe,surat_ket,kar_id)	VALUES(1907021507260142,'300146',NOW(),'1','-','admin')
+2019-07-02 15:28:59;1907021507260142;090401;admin;20.21.21.46;INSERT INTO tm_surat_peringatan (sr_nomor,pel_no,surat_tgl,surat_tipe,surat_ket,kar_id)	VALUES(1907021507260142,'300034',NOW(),'1','-','admin')
+2019-07-02 15:28:59;1907021507260142;090401;admin;20.21.21.46;INSERT INTO tm_surat_peringatan (sr_nomor,pel_no,surat_tgl,surat_tipe,surat_ket,kar_id)	VALUES(1907021507260142,'300003',NOW(),'1','-','admin')
+2019-07-03 11:57:30;1907031157308135;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-07-03 16:06:10;1907031606109617;;admin;20.21.21.46;File proses belum didefinisikan
+2019-07-05 08:48:24;1907050848240449;090501;admin;20.21.21.46;File proses : form_info.php tidak ditemukan
+2019-07-09 14:53:54;1907091453544925;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-07-10 07:47:00;1907100747005031;;admin;20.21.21.46;File proses belum didefinisikan
+2019-07-10 11:12:08;_TOKN;_KODE;_USER;20.21.21.46;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1907101112085037,2,INET_ATON('20.21.21.46'),'','')
+2019-07-10 15:48:45;_TOKN;_KODE;_USER;20.21.21.46;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1907101548455132,2,INET_ATON('20.21.21.46'),'','')
+2019-07-11 14:55:51;1907111455515095;;admin;20.21.21.46;File proses belum didefinisikan
+2019-07-11 14:56:41;1907111456414069;;admin;20.21.21.46;File proses belum didefinisikan
+2019-07-11 15:05:21;1907111505213627;;admin;20.21.21.46;File proses belum didefinisikan
+2019-07-11 15:06:00;1907111506006831;;admin;20.21.21.46;File proses belum didefinisikan
+2019-07-11 15:07:06;1907111507061233;;admin;20.21.21.46;File proses belum didefinisikan
+2019-07-11 15:07:36;1907111507366242;;admin;20.21.21.46;File proses belum didefinisikan
+2019-07-11 15:07:48;1907111507481485;;admin;20.21.21.46;File proses belum didefinisikan
+2019-07-12 09:02:41;1907120902419581;;admin;20.21.21.46;File proses belum didefinisikan
+2019-07-12 09:05:24;1907120905241643;;admin;20.21.21.46;File proses belum didefinisikan
+2019-07-12 09:07:21;1907120907210529;;admin;20.21.21.46;File proses belum didefinisikan
+2019-07-12 09:08:16;1907120908160530;;admin;20.21.21.46;File proses belum didefinisikan
+2019-07-12 09:11:23;1907120911233780;;admin;20.21.21.46;File proses belum didefinisikan
+2019-07-12 09:11:29;1907120911291268;;admin;20.21.21.46;File proses belum didefinisikan
+2019-07-12 09:39:53;1907120939536107;;admin;20.21.21.46;File proses belum didefinisikan
+2019-07-12 11:18:39;_TOKN;_KODE;_USER;20.21.21.46;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1907121118395094,2,INET_ATON('20.21.21.46'),'','')
+2019-07-15 08:29:51;1907150829512289;;admin;20.21.21.46;File proses belum didefinisikan
+2019-07-16 11:01:56;_TOKN;_KODE;_USER;20.21.21.46;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1907161101565296,2,INET_ATON('20.21.21.46'),'','')
+2019-08-01 11:18:39;1908011118194096;010102;0809205;20.21.21.46;UPDATE tr_dkd SET kar_id='',dkd_tcatat='01',dkd_jalan='LUBUK BATANG LAMA',dkd_kd='400101' WHERE dkd_kd='400101'
+2019-08-05 14:20:55;1908051420553057;;0809205;20.21.21.34;File proses belum didefinisikan
+2019-08-05 15:29:10;1908051529101158;;0809205;20.21.21.34;File proses belum didefinisikan
+2019-08-08 10:53:14;1908081053144188;;admin;20.21.21.46;File proses belum didefinisikan
+2019-08-09 10:32:17;1908091032175476;;0809205;20.21.21.34;File proses belum didefinisikan
+2019-08-23 10:39:49;1908231039493290;;0809205;20.21.21.46;File proses belum didefinisikan
+2019-08-24 08:50:02;1908240850029418;;0809205;20.21.21.46;File proses belum didefinisikan
+2019-08-26 11:58:09;1908261158093470;;admin;20.21.21.34;File proses belum didefinisikan
+2019-08-29 08:43:38;1908290837590310;080301;0809205;20.21.21.46;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(1908290837590310,NOW(),'2',,'0809205','20.21.21.46','N',,0,NOW(),1)
+2019-08-29 08:44:44;1908290837590310;080301;0809205;20.21.21.46;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(1908290837590310,NOW(),'2',,'0809205','20.21.21.46','N',,0,NOW(),1)
+2019-08-30 09:05:17;1908300905171268;;0809205;20.21.21.46;File proses belum didefinisikan
+2019-08-30 15:48:26;1908301544540750;050101;admin;20.21.21.182;SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0)' at line 1
+2019-08-31 11:33:11;1908311133119233;;0809205;20.21.21.46;File proses belum didefinisikan
+2019-09-02 08:03:02;1909020803022514;090501;admin;20.21.21.182;File proses : form_info.php tidak ditemukan
+2019-09-02 13:03:26;1909021303262921;;0809205;20.21.21.46;File proses belum didefinisikan
+2019-09-02 13:05:03;1909021305036629;;0809205;20.21.21.46;File proses belum didefinisikan
+2019-09-02 13:05:33;1909021305330679;;0809205;20.21.21.46;File proses belum didefinisikan
+2019-09-02 13:06:07;1909021306070121;;0809205;20.21.21.46;File proses belum didefinisikan
+2019-09-04 09:46:02;1909040946021352;;admin;20.21.21.182;File proses belum didefinisikan
+2019-09-04 09:46:08;1909040946087176;;admin;20.21.21.182;File proses belum didefinisikan
+2019-09-04 09:46:49;1909040946494435;;adminbta;20.21.21.182;File proses belum didefinisikan
+2019-09-04 09:47:08;1909040947080479;;adminbta;20.21.21.182;File proses belum didefinisikan
+2019-09-04 09:47:19;1909040947193534;;adminbta;20.21.21.182;File proses belum didefinisikan
+2019-09-04 09:47:48;1909040947489355;;adminbta;20.21.21.182;File proses belum didefinisikan
+2019-09-04 09:48:36;1909040948367934;;adminbta;20.21.21.182;File proses belum didefinisikan
+2019-09-04 09:48:44;1909040948444038;;adminbta;20.21.21.182;File proses belum didefinisikan
+2019-09-04 10:55:43;1909041055438888;;adminbta;20.21.21.182;File proses belum didefinisikan
+2019-09-04 10:56:48;1909041056484522;;adminbta;20.21.21.182;File proses belum didefinisikan
+2019-09-04 10:57:49;1909041057491760;;adminbta;20.21.21.182;File proses belum didefinisikan
+2019-09-04 10:57:57;1909041057579637;;adminbta;20.21.21.182;File proses belum didefinisikan
+2019-09-04 10:58:06;1909041058060260;;adminbta;20.21.21.182;File proses belum didefinisikan
+2019-09-04 10:59:03;1909041059034785;;adminbta;20.21.21.182;File proses belum didefinisikan
+2019-09-04 10:59:16;1909041059168279;;adminbta;20.21.21.182;File proses belum didefinisikan
+2019-09-04 11:00:45;1909041100455335;;adminbta;20.21.21.182;File proses belum didefinisikan
+2019-09-04 11:01:33;1909041101335949;;adminbta;20.21.21.182;File proses belum didefinisikan
+2019-09-04 11:06:29;1909041106297447;;admin;20.21.21.182;File proses belum didefinisikan
+2019-09-04 11:07:22;1909041107226873;;admin;20.21.21.182;File proses belum didefinisikan
+2019-09-04 11:07:37;1909041107371409;;admin;20.21.21.182;File proses belum didefinisikan
+2019-09-04 11:07:45;1909041107456969;;admin;20.21.21.182;File proses belum didefinisikan
+2019-09-04 11:09:11;1909041109112059;;admin;20.21.21.182;File proses belum didefinisikan
+2019-09-05 14:31:56;1909051431569806;;0809205;20.21.21.46;File proses belum didefinisikan
+2019-09-05 15:24:05;1909051524056948;;0809205;20.21.21.46;File proses belum didefinisikan
+2019-09-09 09:14:49;1909090914494062;;0809205;20.21.21.46;File proses belum didefinisikan
+2019-09-09 09:23:50;1909090923503443;;admin;20.21.21.182;File proses belum didefinisikan
+2019-09-09 09:27:56;1909090926145692;080701;admin;20.21.21.182;UPDATE tm_pembatalan SET btl_tgl=NOW(),validator='admin',btl_sts=1 WHERE ba_no=
+2019-09-09 09:28:07;1909090928078798;;admin;20.21.21.182;File proses belum didefinisikan
+2019-09-09 09:29:06;1909090929062922;;admin;20.21.21.182;File proses belum didefinisikan
+2019-09-09 13:57:24;1909091357247128;;0809205;20.21.21.46;File proses belum didefinisikan
+2019-09-10 09:08:27;1909100908276950;;admin;20.21.21.182;File proses belum didefinisikan
+2019-09-10 09:09:41;1909100909415594;;admin;20.21.21.182;File proses belum didefinisikan
+2019-09-11 09:46:19;1909110946199874;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-09-14 10:01:43;1909141001434147;;0809205;20.21.21.46;File proses belum didefinisikan
+2019-09-17 09:55:01;1909170955014061;;0809205;20.21.21.46;File proses belum didefinisikan
+2019-09-17 12:06:07;1909171206072073;;admin;20.21.21.34;File proses belum didefinisikan
+2019-09-19 12:31:15;1909191231152224;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-09-23 09:07:35;1909230907351827;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-09-23 10:56:42;_TOKN;_KODE;_USER;20.21.21.46;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1909231056424383,2,INET_ATON('20.21.21.46'),'','')
+2019-09-23 10:57:11;1909231057117468;;0809205;20.21.21.46;File proses belum didefinisikan
+2019-09-23 10:57:49;1909231057495151;;0809205;20.21.21.46;File proses belum didefinisikan
+2019-09-23 11:01:45;1909231101453245;;0809205;20.21.21.46;File proses belum didefinisikan
+2019-09-23 11:04:46;1909231104465526;;0809205;20.21.21.46;File proses belum didefinisikan
+2019-09-23 11:30:13;1909231130135122;;0809205;20.21.21.46;File proses belum didefinisikan
+2019-09-23 13:02:10;1909231302101035;;0809205;20.21.21.46;File proses belum didefinisikan
+2019-09-23 14:48:51;1909231448510868;;0108190;20.21.21.182;File proses belum didefinisikan
+2019-09-26 09:49:43;1909260949439884;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-09-30 07:51:39;1909300750525168;050101;admin;20.21.21.182;SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ADEN IN',pel_alamat='LUBUK BATANG BARU',gol_kode='3A',kp_kode='40',dkd_kd='40010' at line 1
+2019-09-30 07:52:23;1909300750525168;050101;admin;20.21.21.182;SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ADEN IN',pel_alamat='LUBUK BATANG BARU',gol_kode='3A',kp_kode='40',dkd_kd='40010' at line 1
+2019-10-01 08:08:19;1910010808194647;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-10-01 08:10:10;1910010810109318;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-10-01 08:10:29;1910010810295831;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-10-01 08:10:41;1910010810413096;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-10-01 08:11:24;1910010811248365;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-10-01 08:11:33;1910010811336627;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-10-02 09:14:27;_TOKN;_KODE;_USER;20.21.21.182;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1910020914261303,2,INET_ATON('20.21.21.182'),'','')
+2019-10-02 11:59:45;_TOKN;_KODE;_USER;20.21.21.182;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1910021159454769,2,INET_ATON('20.21.21.182'),'','')
+2019-10-02 15:03:01;1910021503019756;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-10-04 13:30:29;1910041330294576;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-10-05 10:39:37;1910051039110077;080301;1008200;20.21.21.46;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(1910051039110077,NOW(),'3',,'1008200','20.21.21.46','N',,0,NOW(),1)
+2019-10-08 10:18:05;1910081018059461;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-10-08 10:35:40;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1910081035407855,2,INET_ATON('192.168.130.2'),'','')
+2019-10-08 15:31:51;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1910081531519403,2,INET_ATON('192.168.130.2'),'','')
+2019-10-09 12:05:57;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1910091205578092,2,INET_ATON('192.168.130.2'),'','')
+2019-10-10 08:09:44;1910100809441413;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-10-14 08:18:34;1910140818347759;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-10-14 14:45:37;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1910141445378779,2,INET_ATON('192.168.130.2'),'','')
+2019-10-15 08:23:43;1910150823437765;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-10-15 08:28:43;1910150828433973;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-10-15 08:30:45;1910150830459052;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-10-15 08:36:27;1910150836275848;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-10-15 08:46:05;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1910150846054855,2,INET_ATON('192.168.130.2'),'','')
+2019-10-18 08:50:10;1910180850106024;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-10-18 09:48:34;1910180948344787;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-10-18 09:48:37;1910180948371107;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-10-18 10:42:15;_TOKN;_KODE;_USER;20.21.21.46;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1910181042157096,2,INET_ATON('20.21.21.46'),'','')
+2019-10-21 11:11:32;1910211111321444;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-10-21 11:23:11;1910211123110564;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-10-21 12:21:00;1910211203069218;050301;0809205;20.21.21.46;UPDATE tm_stand_meter SET sm_tgl=NOW(),sm_sts=1,kwm_kd=0,kl_kd=0,sm_kini=putus,kar_id='0809205',remark_id=1910211221003417 WHERE sm_nomer=201910000400279
+2019-10-21 12:21:00;1910211203069218;050301;0809205;20.21.21.46;
+2019-10-21 12:21:00;1910211203069218;050301;0809205;20.21.21.46;
+2019-10-21 12:21:00;1910211203069218;050301;0809205;20.21.21.46;
+2019-10-21 12:21:00;1910211203069218;050301;0809205;20.21.21.46;
+2019-10-21 12:21:00;1910211203069218;050301;0809205;20.21.21.46;
+2019-10-21 12:21:00;1910211203069218;050301;0809205;20.21.21.46;
+2019-10-21 12:21:00;1910211203069218;050301;0809205;20.21.21.46;
+2019-10-21 12:21:00;1910211203069218;050301;0809205;20.21.21.46;
+2019-10-22 10:31:46;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1910221031460904,2,INET_ATON('192.168.130.2'),'','')
+2019-10-24 14:05:03;1910241405030336;090501;admin;192.168.130.2;File proses : form_info.php tidak ditemukan
+2019-10-28 08:54:22;1910280854228475;090501;admin;192.168.130.2;File proses : form_info.php tidak ditemukan
+2019-11-04 09:02:26;1911040902261100;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-11-04 09:07:35;1911040907355729;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-11-04 09:08:00;1911040908008592;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-11-04 09:08:19;1911040908198097;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-11-04 09:08:52;1911040908529260;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-11-04 09:09:16;1911040909163653;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-11-05 12:03:41;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1911051203410037,2,INET_ATON('192.168.130.2'),'','')
+2019-11-19 09:41:19;1911190941198752;;admin;20.21.21.178;File proses belum didefinisikan
+2019-11-19 09:43:37;1911190943376899;;admin;20.21.21.178;File proses belum didefinisikan
+2019-11-19 10:04:18;1911191004185947;090501;admin;20.21.21.178;File proses : form_info.php tidak ditemukan
+2019-11-25 09:29:27;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1911250929276980,2,INET_ATON('192.168.130.2'),'','')
+2019-11-25 09:29:27;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1911250929274038,2,INET_ATON('192.168.130.2'),'','')
+2019-11-25 09:38:30;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1911250938175011,2,INET_ATON('192.168.130.2'),'','')
+2019-11-28 13:39:04;1911281339049580;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-12-02 08:49:54;1912020849549793;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-12-02 08:52:57;1912020852575409;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-12-02 08:54:26;1912020854269662;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-12-02 08:55:32;1912020855329288;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-12-02 09:02:21;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1912020902212972,2,INET_ATON('192.168.130.2'),'','')
+2019-12-03 15:57:34;1912031557340835;;admin;192.168.130.2;File proses belum didefinisikan
+2019-12-03 15:57:48;1912031557485848;;admin;192.168.130.2;File proses belum didefinisikan
+2019-12-03 15:59:24;1912031559243300;;admin;192.168.130.2;File proses belum didefinisikan
+2019-12-05 07:58:56;1912050758561107;090501;admin;192.168.130.2;File proses : form_info.php tidak ditemukan
+2019-12-09 07:10:21;1912090710181162;000000;_USER;20.21.21.34;A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+2019-12-11 10:51:22;1912111051223330;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-12-11 10:51:45;1912111051458660;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-12-11 10:52:04;1912111052044507;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-12-11 10:53:26;1912111053266152;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-12-13 13:38:41;1912131338415501;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-12-18 10:10:39;1912181010390815;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-12-19 10:12:23;1912191011326850;080301;1008200;20.21.21.46;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(1912191011326850,NOW(),'8',,'1008200','20.21.21.46','N',,0,NOW(),1)
+2019-12-19 12:36:38;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1912191236383709,2,INET_ATON('192.168.130.2'),'','')
+2019-12-20 10:12:29;1912201012296608;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-12-20 10:26:43;1912201026434871;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-12-20 13:10:15;1912201310159715;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-12-20 13:35:14;1912201335148688;;0108190;20.21.21.34;File proses belum didefinisikan
+2019-12-26 13:39:09;1912261339095542;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-12-26 13:57:45;1912261357454027;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-12-27 10:13:58;1912271013585607;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-12-27 10:22:07;1912271022072457;090501;admin;20.21.21.178;File proses : form_info.php tidak ditemukan
+2019-12-27 13:48:51;1912271348511985;;1008200;20.21.21.46;File proses belum didefinisikan
+2019-12-30 14:51:44;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(1912301451449906,2,INET_ATON('192.168.130.2'),'','')
+2019-12-31 19:41:12;1912311924254489;040501;admin;20.21.21.178;Penerbitan DRD : 10
+2019-12-31 19:59:01;1912311958546624;040501;admin;20.21.21.178;Penerbitan DRD : 10
+2019-12-31 19:59:35;1912311959260671;040501;admin;20.21.21.178;Penerbitan DRD : 10
+2019-12-31 19:59:36;1912311959297444;040501;admin;20.21.21.178;Penerbitan DRD : 10
+2019-12-31 20:05:55;1912312005503769;040501;admin;20.21.21.178;Penerbitan DRD : 10
+2019-12-31 20:06:20;1912312005503769;040501;admin;20.21.21.178;Penerbitan DRD : 10
+2019-12-31 20:12:11;1912312012053270;040501;admin;20.21.21.178;Penerbitan DRD : 10
+2019-12-31 20:13:16;1912312013089659;040501;admin;20.21.21.178;Penerbitan DRD : 10
+2019-12-31 20:14:09;1912312014031614;040501;admin;20.21.21.178;Penerbitan DRD : 10
+2019-12-31 20:18:39;1912312017098291;040501;admin;20.21.21.178;Penerbitan DRD : 10
+2019-12-31 20:39:03;1912312038518317;040501;SU;192.168.20.10;Penerbitan DRD : 10
+2019-12-31 20:44:20;1912312044047634;040501;SU;192.168.20.10;Penerbitan DRD : 10
+2019-12-31 20:53:22;1912312053174878;040501;admin;20.21.21.178;Penerbitan DRD : 10
+2020-01-02 10:51:04;2001021051041673;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-01-02 13:05:40;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2001021305404313,2,INET_ATON('192.168.130.2'),'','')
+2020-01-04 08:44:41;2001040844416477;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-01-04 08:46:12;2001040846114724;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-01-06 15:18:23;2001061518232501;;admin;192.168.130.2;File proses belum didefinisikan
+2020-01-06 15:19:53;2001061519533988;;adminbta;192.168.130.2;File proses belum didefinisikan
+2020-01-06 18:28:03;2001061828033037;;adminbta;20.21.21.178;File proses belum didefinisikan
+2020-01-06 18:31:16;2001061831168929;;adminbta;20.21.21.178;File proses belum didefinisikan
+2020-01-06 18:31:21;2001061831210591;;adminbta;20.21.21.178;File proses belum didefinisikan
+2020-01-06 18:31:53;2001061831530687;;adminbta;20.21.21.178;File proses belum didefinisikan
+2020-01-07 09:40:02;_TOKN;_KODE;_USER;20.21.21.182;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2001070940027969,2,INET_ATON('20.21.21.182'),'','')
+2020-01-07 14:34:48;2001071434486006;;0707181;20.21.21.182;File proses belum didefinisikan
+2020-01-07 15:10:34;2001071510345275;;0707181;20.21.21.182;File proses belum didefinisikan
+2020-01-07 15:43:24;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2001071543244162,2,INET_ATON('192.168.130.2'),'','')
+2020-01-08 16:10:02;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2001081610023543,2,INET_ATON('192.168.130.2'),'','')
+2020-01-09 11:22:29;2001091122293897;;0707181;20.21.21.182;File proses belum didefinisikan
+2020-01-09 11:42:26;2001091142262957;;0707181;20.21.21.182;File proses belum didefinisikan
+2020-01-09 14:24:54;2001091424542986;;0707181;20.21.21.182;File proses belum didefinisikan
+2020-01-09 14:26:28;2001091426285116;;0707181;20.21.21.182;File proses belum didefinisikan
+2020-01-09 14:31:12;2001091431122647;;0707181;20.21.21.182;File proses belum didefinisikan
+2020-01-10 08:54:04;2001100854042442;;0707181;20.21.21.182;File proses belum didefinisikan
+2020-01-13 10:28:58;2001131028580889;;0707181;20.21.21.182;File proses belum didefinisikan
+2020-01-13 10:36:18;2001131036182552;;0707181;20.21.21.182;File proses belum didefinisikan
+2020-01-13 11:19:00;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2001131119000636,2,INET_ATON('192.168.130.2'),'','')
+2020-01-13 11:35:48;2001131135482506;;0707181;20.21.21.182;File proses belum didefinisikan
+2020-01-13 12:19:16;2001131219167132;;admin;192.168.130.2;File proses belum didefinisikan
+2020-01-13 14:51:50;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2001131451503290,2,INET_ATON('192.168.130.2'),'','')
+2020-01-14 09:38:04;2001140938041078;;0707181;20.21.21.182;File proses belum didefinisikan
+2020-01-14 13:48:19;2001141348195228;;0707181;20.21.21.182;File proses belum didefinisikan
+2020-01-14 14:00:00;2001141400007423;;0707181;20.21.21.182;File proses belum didefinisikan
+2020-01-15 08:17:17;2001150817174837;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-01-15 08:18:35;2001150818357214;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-01-15 09:02:03;2001150900364385;080301;0707181;192.168.130.4;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(2001150900364385,NOW(),'28',,'0707181','192.168.130.4','N',,0,NOW(),1)
+2020-01-15 15:24:16;_TOKN;_KODE;_USER;192.168.130.3;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2001151524167497,2,INET_ATON('192.168.130.3'),'','')
+2020-01-16 10:50:14;_TOKN;_KODE;_USER;192.168.130.3;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2001161050144560,2,INET_ATON('192.168.130.3'),'','')
+2020-01-16 16:37:25;_TOKN;_KODE;_USER;192.168.130.5;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2001161637253642,2,INET_ATON('192.168.130.5'),'','')
+2020-01-17 10:05:45;2001171005459904;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-01-17 10:14:00;2001171014003089;;0108190;20.21.21.34;File proses belum didefinisikan
+2020-01-17 11:14:36;2001171114360311;;0108190;20.21.21.34;File proses belum didefinisikan
+2020-01-17 14:26:56;2001171426565938;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-01-20 08:00:25;2001200800251452;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-01-20 08:03:11;2001200803116003;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-01-20 13:11:10;2001201310377058;080301;1008200;20.21.21.46;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(2001201310377058,NOW(),'20',,'1008200','20.21.21.46','N',,0,NOW(),1)
+2020-01-20 15:02:02;2001201502029264;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-01-21 09:41:03;2001210936149724;090401;adminbta;192.168.130.2;INSERT INTO tm_surat_peringatan (sr_nomor,pel_no,surat_tgl,surat_tipe,surat_ket,kar_id)	VALUES(2001210936149724,'500005',NOW(),'1','-','adminbta')
+2020-01-21 09:48:36;2001210946150805;090401;adminbta;192.168.130.2;INSERT INTO tm_surat_peringatan (sr_nomor,pel_no,surat_tgl,surat_tipe,surat_ket,kar_id)	VALUES(2001210946150805,'500279',NOW(),'1','-','adminbta')
+2020-01-21 09:48:36;2001210946150805;090401;adminbta;192.168.130.2;INSERT INTO tm_surat_peringatan (sr_nomor,pel_no,surat_tgl,surat_tipe,surat_ket,kar_id)	VALUES(2001210946150805,'500257',NOW(),'1','-','adminbta')
+2020-01-21 10:14:36;_TOKN;_KODE;_USER;192.168.130.3;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2001211014365893,2,INET_ATON('192.168.130.3'),'','')
+2020-01-21 11:40:51;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2001211140515110,2,INET_ATON('192.168.130.2'),'','')
+2020-01-21 15:21:58;2001211521580782;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-01-22 14:54:01;_TOKN;_KODE;_USER;192.168.130.5;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2001221454018093,2,INET_ATON('192.168.130.5'),'','')
+2020-01-23 08:13:08;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2001230813080132,2,INET_ATON('192.168.130.2'),'','')
+2020-01-23 12:20:21;_TOKN;_KODE;_USER;192.168.130.3;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2001231220214288,2,INET_ATON('192.168.130.3'),'','')
+2020-01-23 15:37:46;_TOKN;_KODE;_USER;192.168.130.5;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2001231537466285,2,INET_ATON('192.168.130.5'),'','')
+2020-01-27 08:00:54;2001270756462365;050101;adminbta;192.168.130.5;SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '7)' at line 1
+2020-01-27 08:31:21;2001270756462365;050101;adminbta;192.168.130.5;SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ARIF','BLOK G, MARTAJAYA','3B','50','500103',1,'adminbta',NOW(),0,7)' at line 1
+2020-01-27 08:31:59;2001270756462365;050101;adminbta;192.168.130.5;SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ARIF','BLOK G, MARTAJAYA','3B','50','500103',1,'adminbta',NOW(),0,7)' at line 1
+2020-01-27 08:32:47;2001270756462365;050101;adminbta;192.168.130.5;SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ARIF','BLOK G,MARTAJAYA','3B','50','500103',1,'adminbta',NOW(),0,7)' at line 1
+2020-01-27 08:34:04;2001270756462365;050101;adminbta;192.168.130.5;SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ARIF','BLOK G, MARTAJAYA','3B','50','500103',1,'adminbta',NOW(),0,7)' at line 1
+2020-01-27 08:37:33;2001270836574956;050101;adminbta;192.168.130.5;SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ARIF','BLOK G, MARTAJAYA','3B','50','500103',1,'adminbta',NOW(),0,7)' at line 1
+2020-01-27 08:44:20;2001270844205032;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-01-27 13:16:01;2001271316017919;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-01-27 15:21:12;_TOKN;_KODE;_USER;192.168.130.3;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2001271521127832,2,INET_ATON('192.168.130.3'),'','')
+2020-01-28 08:53:37;2001280853377436;090501;admin;192.168.130.3;File proses : form_info.php tidak ditemukan
+2020-01-28 08:53:39;2001280853392863;;admin;192.168.130.3;File proses belum didefinisikan
+2020-01-28 10:15:57;_TOKN;_KODE;_USER;20.21.21.46;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2001281015574785,2,INET_ATON('20.21.21.46'),'','')
+2020-01-29 10:26:27;2001291026048633;040501;ADM PUSAT;192.168.130.3;Penerbitan DRD : 50
+2020-01-29 10:28:06;2001291028027779;040501;ADM PUSAT;192.168.130.3;Penerbitan DRD : 40
+2020-01-29 15:17:51;2001291517107887;050301;ADM PUSAT;192.168.130.3;UPDATE tm_stand_meter SET sm_tgl=NOW(),sm_sts=1,kwm_kd=0,kl_kd=0,sm_kini=5347',kar_id='ADM PUSAT',remark_id=2001291517517964 WHERE sm_nomer=202001000100555
+2020-01-30 10:20:48;2001301020012956;050101;admin;20.21.21.182;SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BANI I',pel_alamat='JL.KOM.HM.AMIN',gol_kode='3B',kp_kode='10',dkd_kd='100201',k' at line 1
+2020-01-30 10:22:29;2001301021576797;050101;admin;20.21.21.182;SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BANI I',pel_alamat='JL.KOM.HM.AMIN',gol_kode='3B',kp_kode='10',dkd_kd='100201',k' at line 1
+2020-01-30 11:43:19;2001301143194364;;admin;192.168.130.2;File proses belum didefinisikan
+2020-01-30 12:39:41;2001301239073941;040501;admin;192.168.130.3;Penerbitan DRD : 10
+2020-01-30 14:16:55;2001301416559562;;0189067;192.168.130.4;File proses belum didefinisikan
+2020-01-30 14:16:59;2001301416596505;;0189067;192.168.130.4;File proses belum didefinisikan
+2020-01-30 16:00:57;_TOKN;_KODE;_USER;192.168.130.3;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2001301600574459,2,INET_ATON('192.168.130.3'),'','')
+2020-01-31 09:32:32;2001310932264155;040501;admin;192.168.130.2;Penerbitan DRD : 10
+2020-01-31 13:45:05;2001311345053733;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-02-01 09:24:32;2002010924329851;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-02-01 09:27:18;2002010927182686;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-02-01 09:31:54;2002010931546593;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-02-01 09:35:24;2002010935245123;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-02-01 09:36:50;2002010936504153;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-02-01 09:37:11;2002010937119034;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-02-01 09:37:21;2002010937214108;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-02-03 09:33:47;_TOKN;_KODE;_USER;192.168.130.3;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2002030933477816,2,INET_ATON('192.168.130.3'),'','')
+2020-02-04 08:48:39;2002040848398204;;0189067;192.168.130.4;File proses belum didefinisikan
+2020-02-04 10:02:30;2002041002082384;050101;ADM PUSAT;192.168.130.3;SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FIQQUR RAHMAN',pel_alamat='JL.A.YANI SPG CITIMALL',gol_kode='4A',kp_kode='10',dk' at line 1
+2020-02-04 13:27:41;2002041327414552;;0189067;192.168.130.4;File proses belum didefinisikan
+2020-02-04 16:23:47;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2002041623476840,2,INET_ATON('192.168.130.2'),'','')
+2020-02-05 10:18:08;2002051018086634;010202;admin;192.168.130.2;Cannot delete or update a parent row: a foreign key constraint fails (`pdam_billing_oki`.`tr_trans_log`, CONSTRAINT `tr_trans_log_ibfk_1` FOREIGN KEY (`kar_id`) REFERENCES `tm_karyawan` (`kar_id`) ON UPDATE CASCADE)
+2020-02-05 10:18:40;2002051018404939;010202;admin;192.168.130.2;Cannot delete or update a parent row: a foreign key constraint fails (`pdam_billing_oki`.`tr_trans_log`, CONSTRAINT `tr_trans_log_ibfk_1` FOREIGN KEY (`kar_id`) REFERENCES `tm_karyawan` (`kar_id`) ON UPDATE CASCADE)
+2020-02-05 14:10:57;2002051410570885;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-02-05 16:11:42;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2002051611423248,2,INET_ATON('192.168.130.2'),'','')
+2020-02-06 08:48:00;2002060848007473;;adminbta;192.168.130.5;File proses belum didefinisikan
+2020-02-06 08:48:11;2002060848113142;;adminbta;192.168.130.5;File proses belum didefinisikan
+2020-02-06 08:55:32;2002060855320700;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-02-06 09:00:41;2002060900404718;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-02-06 09:03:57;2002060903573132;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-02-06 14:43:03;2002061443038391;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-02-06 15:15:44;2002061512075901;080301;0707181;192.168.130.4;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(2002061512075901,NOW(),'151',,'0707181','192.168.130.4','N',,0,NOW(),1)
+2020-02-07 11:42:32;2002071142324984;;admin;192.168.130.5;File proses belum didefinisikan
+2020-02-07 15:19:24;2002071519241352;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-02-08 09:30:52;2002080930529981;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-02-10 08:31:15;2002100831153205;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-02-10 09:08:05;2002100908059438;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-02-10 09:09:46;2002100909467777;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-02-10 10:11:07;2002101011075397;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-02-10 11:48:35;2002101148353623;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-02-10 13:46:33;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2002101346332211,2,INET_ATON('192.168.130.2'),'','')
+2020-02-10 13:54:01;2002101354019090;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-02-10 14:39:50;2002101439505829;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-02-11 11:56:07;2002111156079467;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-02-11 16:08:57;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2002111608573120,2,INET_ATON('192.168.130.2'),'','')
+2020-02-11 16:12:49;_TOKN;_KODE;_USER;192.168.130.3;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2002111612496364,2,INET_ATON('192.168.130.3'),'','')
+2020-02-12 09:38:14;2002120938146952;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-02-12 09:40:26;2002120940261123;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-02-12 13:21:57;2002121321577478;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-02-13 08:56:34;2002130856348448;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-02-13 13:18:10;2002131318104856;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-02-13 13:53:37;2002131353374721;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-02-14 09:30:54;2002140930547151;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-02-14 11:32:17;2002141132177873;;ADM PUSAT;192.168.130.3;File proses belum didefinisikan
+2020-02-14 13:11:38;_TOKN;_KODE;_USER;192.168.130.3;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2002141311382595,2,INET_ATON('192.168.130.3'),'','')
+2020-02-14 13:33:53;2002141333535080;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-02-14 15:26:58;2002141526584650;090501;_USER;192.168.130.3;File proses : form_info.php tidak ditemukan
+2020-02-14 15:27:35;2002141527359134;090501;ADM PUSAT;192.168.130.3;File proses : form_info.php tidak ditemukan
+2020-02-14 15:27:42;2002141527423239;;ADM PUSAT;192.168.130.3;File proses belum didefinisikan
+2020-02-14 15:27:49;2002141527499093;090501;ADM PUSAT;192.168.130.3;File proses : form_info.php tidak ditemukan
+2020-02-14 15:28:02;2002141528022407;;ADM PUSAT;192.168.130.3;File proses belum didefinisikan
+2020-02-14 15:57:53;_TOKN;_KODE;_USER;192.168.130.3;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2002141557531880,2,INET_ATON('192.168.130.3'),'','')
+2020-02-14 16:01:30;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2002141601304434,2,INET_ATON('192.168.130.2'),'','')
+2020-02-17 07:57:41;2002170757418239;090501;admin;192.168.130.5;File proses : form_info.php tidak ditemukan
+2020-02-17 08:11:21;2002170810467086;080301;0707181;192.168.130.4;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(2002170810467086,NOW(),'16',,'0707181','192.168.130.4','N',,0,NOW(),1)
+2020-02-17 08:15:46;2002170815464509;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-02-17 10:49:52;2002171049524703;;0189067;20.21.21.182;File proses belum didefinisikan
+2020-02-17 11:48:25;2002171148256974;;0707181;192.168.130.4;File proses belum didefinisikan
+2020-02-17 13:19:46;2002171318382822;080301;0707181;192.168.130.4;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(2002171318382822,NOW(),'254',,'0707181','192.168.130.4','N',,0,NOW(),1)
+2020-02-17 13:30:36;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2002171330363982,2,INET_ATON('192.168.130.2'),'','')
+2020-02-17 14:11:51;2002171411515924;;0189067;20.21.21.178;File proses belum didefinisikan
+2020-02-17 14:18:41;2002171418415140;;0707181;20.21.21.182;File proses belum didefinisikan
+2020-02-17 14:44:29;2002171444295203;;0189067;20.21.21.182;File proses belum didefinisikan
+2020-02-17 15:03:39;2002171502272790;080301;0189067;20.21.21.182;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(2002171502272790,NOW(),'205',,'0189067','20.21.21.182','N',,0,NOW(),1)
+2020-02-17 15:08:43;2002171508433887;;0189067;20.21.21.182;File proses belum didefinisikan
+2020-02-17 15:08:51;2002171508514676;;0189067;20.21.21.182;File proses belum didefinisikan
+2020-02-17 15:11:30;2002171511304796;;0189067;20.21.21.182;File proses belum didefinisikan
+2020-02-17 16:09:13;2002171609130753;;0189067;192.168.130.4;File proses belum didefinisikan
+2020-02-17 16:23:15;2002171623153627;;0189067;20.21.21.182;File proses belum didefinisikan
+2020-02-18 08:18:13;2002180818132397;;0809203;20.21.21.178;File proses belum didefinisikan
+2020-02-18 08:20:56;2002180820561416;;0189067;20.21.21.182;File proses belum didefinisikan
+2020-02-18 08:28:53;2002180824593663;050301;ADM PUSAT;192.168.130.3;UPDATE tm_stand_meter SET sm_tgl=NOW(),sm_sts=1,kwm_kd=0,kl_kd=0,sm_kini=.,kar_id='ADM PUSAT',remark_id=2002180828533171 WHERE sm_nomer=202002102106015
+2020-02-18 08:28:53;2002180824593663;050301;ADM PUSAT;192.168.130.3;
+2020-02-18 08:28:53;2002180824593663;050301;ADM PUSAT;192.168.130.3;
+2020-02-18 08:28:53;2002180824593663;050301;ADM PUSAT;192.168.130.3;
+2020-02-18 08:28:53;2002180824593663;050301;ADM PUSAT;192.168.130.3;
+2020-02-18 08:28:53;2002180824593663;050301;ADM PUSAT;192.168.130.3;
+2020-02-18 08:28:53;2002180824593663;050301;ADM PUSAT;192.168.130.3;
+2020-02-18 08:28:53;2002180824593663;050301;ADM PUSAT;192.168.130.3;
+2020-02-18 08:29:19;2002180829191820;;0809203;20.21.21.178;File proses belum didefinisikan
+2020-02-18 08:36:36;2002180835235741;080301;0189067;20.21.21.182;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(2002180835235741,NOW(),'9',201912100116175,'0189067','20.21.21.182','N',82500,0,NOW(),1)
+2020-02-18 08:36:36;2002180836361027;;0189067;20.21.21.182;File proses belum didefinisikan
+2020-02-18 08:36:45;2002180835235741;080301;0189067;20.21.21.182;INSERT INTO tm_bayar_rek(byr_no,byr_tgl,kar_id,byr_loket,byr_total,byr_dibayar,byr_kembali,byr_sts) VALUES(2002180835235741,NOW(),'0189067','',,82500,0,1)
+2020-02-18 09:41:43;2002180941435617;;0189067;20.21.21.182;File proses belum didefinisikan
+2020-02-18 09:44:47;2002180944478521;;0189067;20.21.21.182;File proses belum didefinisikan
+2020-02-18 09:51:08;2002180950289420;050101;admin;192.168.130.2;SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`pdam_billing_oki`.`tm_pelanggan`, CONSTRAINT `tm_pelanggan_ibfk_5` FOREIGN KEY (`dkd_kd`) REFERENCES `tr_dkd` (`dkd_kd`) ON UPDATE CASCADE)
+2020-02-18 09:51:21;2002180950289420;050101;admin;192.168.130.2;SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`pdam_billing_oki`.`tm_pelanggan`, CONSTRAINT `tm_pelanggan_ibfk_5` FOREIGN KEY (`dkd_kd`) REFERENCES `tr_dkd` (`dkd_kd`) ON UPDATE CASCADE)
+2020-02-18 09:51:59;2002180950289420;050101;admin;192.168.130.2;SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`pdam_billing_oki`.`tm_pelanggan`, CONSTRAINT `tm_pelanggan_ibfk_5` FOREIGN KEY (`dkd_kd`) REFERENCES `tr_dkd` (`dkd_kd`) ON UPDATE CASCADE)
+2020-02-18 10:02:42;2002181002420875;;0189067;20.21.21.182;File proses belum didefinisikan
+2020-02-18 10:02:59;2002181002595373;;0189067;20.21.21.182;File proses belum didefinisikan
+2020-02-18 10:03:28;2002181003281637;;0189067;20.21.21.182;File proses belum didefinisikan
+2020-02-18 10:03:47;2002181003475892;;0809203;20.21.21.178;File proses belum didefinisikan
+2020-02-18 10:03:55;2002181003554213;;0189067;20.21.21.182;File proses belum didefinisikan
+2020-02-18 10:56:40;2002181056401487;090501;adminbta;192.168.130.6;File proses : form_info.php tidak ditemukan
+2020-02-18 11:33:25;2002181130372825;050101;admin;192.168.130.2;SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`pdam_billing_oki`.`tm_pelanggan`, CONSTRAINT `tm_pelanggan_ibfk_5` FOREIGN KEY (`dkd_kd`) REFERENCES `tr_dkd` (`dkd_kd`) ON UPDATE CASCADE)
+2020-02-18 12:17:20;2002181217200102;;0189067;20.21.21.182;File proses belum didefinisikan
+2020-02-18 12:17:34;2002181217342555;;0189067;20.21.21.182;File proses belum didefinisikan
+2020-02-18 13:53:40;2002181353404053;;0189067;20.21.21.182;File proses belum didefinisikan
+2020-02-18 14:10:10;2002181407561678;080301;0809203;192.168.130.4;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(2002181407561678,NOW(),'285',,'0809203','192.168.130.4','N',,0,NOW(),1)
+2020-02-18 14:51:25;2002181332431195;050301;_USER;192.168.130.5;UPDATE tm_stand_meter SET sm_tgl=NOW(),sm_sts=1,kwm_kd=0,kl_kd=0,sm_kini=2736,kar_id='_USER',remark_id=2002181451252678 WHERE sm_nomer=202002000106879
+2020-02-18 14:51:25;2002181332431195;050301;_USER;192.168.130.5;
+2020-02-18 14:51:25;2002181332431195;050301;_USER;192.168.130.5;
+2020-02-18 14:51:25;2002181332431195;050301;_USER;192.168.130.5;
+2020-02-18 14:51:25;2002181332431195;050301;_USER;192.168.130.5;
+2020-02-18 14:51:25;2002181332431195;050301;_USER;192.168.130.5;
+2020-02-18 14:51:25;2002181332431195;050301;_USER;192.168.130.5;
+2020-02-18 15:45:02;2002181545027579;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-19 07:57:14;2002190757142448;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-19 09:03:23;2002190902209351;050101;admin;192.168.130.5;SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BANI I',pel_alamat='JL.KOM.HM.AMIN',gol_kode='3B',kp_kode='10',dkd_kd='100201',k' at line 1
+2020-02-19 09:21:36;2002190916415585;080301;0189067;20.21.21.182;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(2002190916415585,NOW(),'35',,'0189067','20.21.21.182','N',,0,NOW(),1)
+2020-02-19 09:40:22;2002190940222528;;0189067;20.21.21.182;File proses belum didefinisikan
+2020-02-19 09:44:32;2002190944323566;010202;admin;192.168.130.5;Cannot delete or update a parent row: a foreign key constraint fails (`pdam_billing_oki`.`tr_trans_log`, CONSTRAINT `tr_trans_log_ibfk_1` FOREIGN KEY (`kar_id`) REFERENCES `tm_karyawan` (`kar_id`) ON UPDATE CASCADE)
+2020-02-19 10:06:50;2002191005367004;080301;0189067;20.21.21.182;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(2002191005367004,NOW(),'109',,'0189067','20.21.21.182','N',,0,NOW(),1)
+2020-02-19 10:06:51;2002191005367004;080301;0189067;20.21.21.182;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(2002191005367004,NOW(),'109',,'0189067','20.21.21.182','N',,0,NOW(),1)
+2020-02-19 10:44:13;2002191044131340;;0108190;20.21.21.34;File proses belum didefinisikan
+2020-02-19 11:31:07;2002191129282006;080301;0809203;192.168.130.4;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(2002191129282006,NOW(),'194',,'0809203','192.168.130.4','N',,0,NOW(),1)
+2020-02-19 12:04:59;2002191204592824;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-19 13:29:02;2002191329026270;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-19 14:36:59;2002191436593699;;0189067;20.21.21.182;File proses belum didefinisikan
+2020-02-19 14:45:12;2002191443269244;080301;0189067;20.21.21.182;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(2002191443269244,NOW(),'432',,'0189067','20.21.21.182','N',,0,NOW(),1)
+2020-02-19 15:01:07;2002191501073148;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-20 08:32:03;2002200832031767;;admin;192.168.130.2;File proses belum didefinisikan
+2020-02-20 08:39:36;2002200839367819;;admin;192.168.130.2;File proses belum didefinisikan
+2020-02-20 08:40:25;2002200840253887;;admin;192.168.130.2;File proses belum didefinisikan
+2020-02-20 08:41:43;2002200841435512;;admin;192.168.130.2;File proses belum didefinisikan
+2020-02-20 08:42:42;2002200842427641;;admin;192.168.130.2;File proses belum didefinisikan
+2020-02-20 08:44:25;2002200844253132;;admin;192.168.130.2;File proses belum didefinisikan
+2020-02-20 08:45:06;2002200845069895;;admin;192.168.130.2;File proses belum didefinisikan
+2020-02-20 10:21:17;2002200958546118;050301;admin;192.168.130.2;UPDATE tm_stand_meter SET sm_tgl=NOW(),sm_sts=1,kwm_kd=0,kl_kd=0,sm_kini= ,kar_id='admin',remark_id=2002201021176437 WHERE sm_nomer=202002102113656
+2020-02-20 10:21:17;2002200958546118;050301;admin;192.168.130.2;
+2020-02-20 10:21:17;2002200958546118;050301;admin;192.168.130.2;
+2020-02-20 10:21:17;2002200958546118;050301;admin;192.168.130.2;
+2020-02-20 10:21:17;2002200958546118;050301;admin;192.168.130.2;
+2020-02-20 11:17:51;2002201116143966;050101;admin;192.168.130.2;SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`pdam_billing_oki`.`tm_pelanggan`, CONSTRAINT `tm_pelanggan_ibfk_5` FOREIGN KEY (`dkd_kd`) REFERENCES `tr_dkd` (`dkd_kd`) ON UPDATE CASCADE)
+2020-02-20 11:29:38;2002201129382989;;0189067;20.21.21.182;File proses belum didefinisikan
+2020-02-20 11:55:00;2002201155005328;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-20 13:40:12;2002201340126340;;0108190;20.21.21.34;File proses belum didefinisikan
+2020-02-20 14:06:27;2002201406271133;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-02-20 14:28:59;2002201428597056;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-20 14:46:16;2002201446163652;;0189067;20.21.21.182;File proses belum didefinisikan
+2020-02-20 14:46:17;2002201444265116;080301;0189067;20.21.21.182;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(2002201444265116,NOW(),'590',,'0189067','20.21.21.182','N',,0,NOW(),1)
+2020-02-20 15:07:15;2002201507159952;;0189067;20.21.21.182;File proses belum didefinisikan
+2020-02-20 16:19:48;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2002201619486213,2,INET_ATON('192.168.130.2'),'','')
+2020-02-21 09:30:19;2002210925237870;080301;0809203;192.168.130.4;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(2002210925237870,NOW(),'82',,'0809203','192.168.130.4','N',,0,NOW(),1)
+2020-02-21 09:34:29;2002210839342068;050301;ADM PUSAT;192.168.130.3;UPDATE tm_stand_meter SET sm_tgl=NOW(),sm_sts=1,kwm_kd=0,kl_kd=0,sm_kini=.,kar_id='ADM PUSAT',remark_id=2002210934298567 WHERE sm_nomer=202002102105584
+2020-02-21 09:34:29;2002210839342068;050301;ADM PUSAT;192.168.130.3;
+2020-02-21 09:34:29;2002210839342068;050301;ADM PUSAT;192.168.130.3;
+2020-02-21 09:34:29;2002210839342068;050301;ADM PUSAT;192.168.130.3;
+2020-02-21 11:00:23;2002211100234875;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-21 14:06:08;2002211406082161;;0189067;20.21.21.182;File proses belum didefinisikan
+2020-02-22 11:42:52;2002221142521134;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-02-24 07:44:21;2002240744214018;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-24 07:56:34;2002240756347830;090501;admin;192.168.130.5;File proses : form_info.php tidak ditemukan
+2020-02-24 10:11:46;2002241011460130;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-02-24 10:32:01;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2002241032018011,2,INET_ATON('192.168.130.2'),'','')
+2020-02-24 10:51:17;2002241049435824;080301;0809203;192.168.130.4;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(2002241049435824,NOW(),'179',,'0809203','192.168.130.4','N',,0,NOW(),1)
+2020-02-24 11:39:26;2002241138586106;050101;ADM PUSAT;192.168.130.3;SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'HAJ',gol_kode='4A',kp_kode='10',dkd_kd='100106',kar_id='ADM PUSAT',kps_kode=0 WH' at line 1
+2020-02-24 11:48:25;2002241148253468;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-24 11:48:49;2002241148497096;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-24 11:53:16;2002241151329812;080301;0809203;192.168.130.4;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(2002241151329812,NOW(),'243',,'0809203','192.168.130.4','N',,0,NOW(),1)
+2020-02-24 11:58:06;2002241155195186;080301;0809203;192.168.130.4;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(2002241155195186,NOW(),'248',,'0809203','192.168.130.4','N',,0,NOW(),1)
+2020-02-25 11:29:06;2002251129064401;090501;adminbta;192.168.130.6;File proses : form_info.php tidak ditemukan
+2020-02-25 11:29:09;2002251129095496;090501;adminbta;192.168.130.6;File proses : form_info.php tidak ditemukan
+2020-02-25 11:40:20;2002251140203016;;adminbta;192.168.130.6;File proses belum didefinisikan
+2020-02-25 11:44:11;2002251141448404;080301;0809203;192.168.130.4;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(2002251141448404,NOW(),'218',,'0809203','192.168.130.4','N',,0,NOW(),1)
+2020-02-25 11:56:55;2002251143425027;050301;admin;192.168.130.5;UPDATE tm_stand_meter SET sm_tgl=NOW(),sm_sts=1,kwm_kd=0,kl_kd=0,sm_kini=\,kar_id='admin',remark_id=2002251156550091 WHERE sm_nomer=202002102116179
+2020-02-25 11:56:55;2002251143425027;050301;admin;192.168.130.5;
+2020-02-25 12:00:01;2002251200017933;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-25 16:09:01;2002251428011562;050301;_USER;192.168.130.2;UPDATE tm_stand_meter SET sm_tgl=NOW(),sm_sts=1,kwm_kd=0,kl_kd=0,sm_kini=1039,kar_id='_USER',remark_id=2002251609014299 WHERE sm_nomer=202002102110095
+2020-02-25 16:09:01;2002251428011562;050301;_USER;192.168.130.2;
+2020-02-25 16:09:01;2002251428011562;050301;_USER;192.168.130.2;
+2020-02-25 16:09:01;2002251428011562;050301;_USER;192.168.130.2;
+2020-02-25 16:09:02;2002251428011562;050301;_USER;192.168.130.2;
+2020-02-25 16:09:02;2002251428011562;050301;_USER;192.168.130.2;
+2020-02-25 16:09:02;2002251428011562;050301;_USER;192.168.130.2;
+2020-02-25 16:09:58;_TOKN;_KODE;_USER;20.21.21.46;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2002251609587034,2,INET_ATON('20.21.21.46'),'','')
+2020-02-26 07:43:16;2002260743157064;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-26 07:43:42;2002260743422669;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-26 10:27:12;2002261027121369;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-26 10:57:03;2002261057036352;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-26 11:51:26;2002261124087577;050301;ADM PUSAT;192.168.130.3;UPDATE tm_stand_meter SET sm_tgl=NOW(),sm_sts=1,kwm_kd=0,kl_kd=0,sm_kini=.,kar_id='ADM PUSAT',remark_id=2002261151267098 WHERE sm_nomer=202002000103790
+2020-02-26 11:51:26;2002261124087577;050301;ADM PUSAT;192.168.130.3;
+2020-02-26 11:51:26;2002261124087577;050301;ADM PUSAT;192.168.130.3;
+2020-02-26 11:51:26;2002261124087577;050301;ADM PUSAT;192.168.130.3;
+2020-02-26 11:51:26;2002261124087577;050301;ADM PUSAT;192.168.130.3;
+2020-02-26 11:51:26;2002261124087577;050301;ADM PUSAT;192.168.130.3;
+2020-02-26 11:51:26;2002261124087577;050301;ADM PUSAT;192.168.130.3;
+2020-02-26 14:27:38;2002261427135079;050101;admin;192.168.130.2;SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`pdam_billing_oki`.`tm_pelanggan`, CONSTRAINT `tm_pelanggan_ibfk_5` FOREIGN KEY (`dkd_kd`) REFERENCES `tr_dkd` (`dkd_kd`) ON UPDATE CASCADE)
+2020-02-26 14:55:34;_TOKN;_KODE;_USER;192.168.130.5;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2002261455345989,2,INET_ATON('192.168.130.5'),'','')
+2020-02-26 16:51:22;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2002261651225795,2,INET_ATON('192.168.130.2'),'','')
+2020-02-27 08:11:39;2002270751565716;050301;admin;192.168.130.5;UPDATE tm_stand_meter SET sm_tgl=NOW(),sm_sts=1,kwm_kd=0,kl_kd=0,sm_kini= ,kar_id='admin',remark_id=2002270811397411 WHERE sm_nomer=202002102112468
+2020-02-27 08:22:40;2002270815228917;080301;0809203;192.168.130.4;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(2002270815228917,NOW(),'15',,'0809203','192.168.130.4','N',,0,NOW(),1)
+2020-02-27 08:37:42;2002270829529709;080301;0809203;192.168.130.4;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(2002270829529709,NOW(),'27',,'0809203','192.168.130.4','N',,0,NOW(),1)
+2020-02-27 09:18:13;2002270918132380;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-27 09:18:32;2002270918321422;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-27 09:18:42;2002270918424821;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-27 09:22:20;2002270922206739;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-27 09:29:25;2002270929250122;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-27 10:13:04;2002271012046692;050101;admin;192.168.130.2;SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`pdam_billing_oki`.`tm_pelanggan`, CONSTRAINT `tm_pelanggan_ibfk_5` FOREIGN KEY (`dkd_kd`) REFERENCES `tr_dkd` (`dkd_kd`) ON UPDATE CASCADE)
+2020-02-27 10:40:07;2002271040071722;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-27 11:18:59;2002271118314109;050101;ADM PUSAT;192.168.130.3;SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'I',pel_alamat='KP.BARU RT.015/004',gol_kode='3B',kp_kode='10',dkd_kd='100126',ka' at line 1
+2020-02-27 14:39:13;2002271439131445;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-27 14:39:57;2002271439575277;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-27 16:11:38;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2002271611383454,2,INET_ATON('192.168.130.2'),'','')
+2020-02-28 09:06:44;2002280906442975;090501;ADM PUSAT;192.168.130.3;File proses : form_info.php tidak ditemukan
+2020-02-28 09:29:19;2002280929199207;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-28 13:23:29;2002281323290594;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-28 13:23:37;2002281323378583;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-02-29 14:03:14;2002291401496862;040501;admin;20.21.21.178;Penerbitan DRD : 10
+2020-02-29 14:04:43;2002291401496862;040501;admin;20.21.21.178;Penerbitan DRD : 10
+2020-03-02 06:56:04;2003020656042781;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-03-02 06:57:58;2003020657589406;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-03-02 06:59:03;2003020659038995;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-03-02 07:00:11;2003020700117263;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-03-02 08:58:23;2003020858239735;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-02 08:58:42;2003020858421278;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-02 09:06:47;2003020906478391;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-02 09:36:06;2003020936066059;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-02 09:54:53;2003020954537775;090501;adminbta;192.168.130.6;File proses : form_info.php tidak ditemukan
+2020-03-02 10:46:38;2003021046386557;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-02 10:47:01;2003021047010479;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-02 13:21:53;_TOKN;_KODE;_USER;192.168.130.3;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2003021321539270,2,INET_ATON('192.168.130.3'),'','')
+2020-03-02 13:27:47;2003021327476780;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-02 13:27:58;2003021327589686;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-02 13:28:06;2003021328060290;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-02 13:28:24;2003021328249410;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-02 13:28:59;2003021328599548;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-02 14:28:46;2003021428463811;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-03 08:08:50;2003030802394218;080301;0809203;192.168.130.4;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(2003030802394218,NOW(),'1',,'0809203','192.168.130.4','N',,0,NOW(),1)
+2020-03-03 08:11:07;2003030811073357;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-03 11:43:44;2003031143441913;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-03 13:09:27;2003031309278615;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-03 13:42:55;2003031342556832;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-03 14:58:57;2003031458578029;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-03 15:00:10;2003031500101980;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-03 16:07:20;_TOKN;_KODE;_USER;192.168.130.3;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2003031607200093,2,INET_ATON('192.168.130.3'),'','')
+2020-03-04 08:54:04;2003040854044391;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-04 10:30:06;2003041030067486;090501;admin;192.168.130.2;File proses : form_info.php tidak ditemukan
+2020-03-04 10:33:25;2003041033259223;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-04 11:23:45;2003041123454338;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-04 13:10:21;2003041310211694;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-04 14:22:40;2003041422403155;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-03-04 16:02:15;_TOKN;_KODE;_USER;192.168.130.5;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2003041602152499,2,INET_ATON('192.168.130.5'),'','')
+2020-03-05 08:27:15;2003050827156147;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-05 08:27:29;2003050827296102;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-05 09:14:39;2003050912467014;080301;0809203;192.168.130.4;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(2003050912467014,NOW(),'55',,'0809203','192.168.130.4','N',,0,NOW(),1)
+2020-03-05 10:05:46;2003051005462923;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-05 10:06:16;2003051006168910;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-05 10:15:05;_TOKN;_KODE;_USER;20.21.21.46;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2003051015057812,2,INET_ATON('20.21.21.46'),'','')
+2020-03-05 10:34:46;2003051034460198;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-05 10:55:07;2003051055075883;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-05 13:24:54;2003051324545569;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-05 13:25:11;2003051325111994;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-05 13:25:57;2003051325578472;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-05 13:32:26;2003051332263359;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-05 13:36:05;2003051336053157;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-05 14:17:13;2003051417137356;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-05 14:17:32;2003051417325599;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-05 14:18:33;2003051418330324;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-05 14:18:51;2003051418511419;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-05 16:05:54;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2003051605545366,2,INET_ATON('192.168.130.2'),'','')
+2020-03-06 08:14:31;2003060814310952;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-06 09:52:41;2003060952418648;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-06 09:52:57;2003060952575955;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-06 10:06:51;2003061006517118;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-06 10:15:04;2003061015048155;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-06 11:39:03;2003061139032686;;ADM PUSAT;192.168.130.3;File proses belum didefinisikan
+2020-03-06 11:44:24;_TOKN;_KODE;_USER;192.168.130.3;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2003061144247627,2,INET_ATON('192.168.130.3'),'','')
+2020-03-06 13:51:29;2003061351292743;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-06 13:51:58;2003061351582709;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-06 13:55:39;2003061355393563;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-06 15:15:15;2003061515158129;010202;admin;20.21.21.178;Cannot delete or update a parent row: a foreign key constraint fails (`pdam_billing_oki`.`tm_stand_meter`, CONSTRAINT `tm_stand_meter_ibfk_3` FOREIGN KEY (`kar_id`) REFERENCES `tm_karyawan` (`kar_id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+2020-03-06 15:25:19;2003061525197931;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-09 09:26:50;2003090926500723;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-09 12:47:46;2003091247463001;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-03-09 12:48:03;2003091248035460;;1008200;20.21.21.46;File proses belum didefinisikan
+2020-03-09 13:09:38;2003091309382343;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-09 13:56:30;2003091356308047;;SU;192.168.20.13;File proses belum didefinisikan
+2020-03-10 07:38:43;2003100738437194;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-10 09:35:57;2003100935576830;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-10 10:05:43;2003101005431353;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-10 12:19:48;_TOKN;_KODE;_USER;192.168.130.2;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2003101219487078,2,INET_ATON('192.168.130.2'),'','')
+2020-03-10 13:53:43;2003101353437777;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-10 13:58:58;2003101358586419;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-10 13:59:10;2003101359103673;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-10 13:59:55;2003101359558735;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-10 14:00:29;2003101400290687;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-10 14:01:26;2003101401263219;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-10 14:10:33;2003101410331398;;0809203;192.168.130.4;File proses belum didefinisikan
+2020-03-10 16:00:32;_TOKN;_KODE;_USER;192.168.130.3;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2003101600329208,2,INET_ATON('192.168.130.3'),'','')
+2020-03-11 13:13:27;2003111313270106;;041213;192.168.20.10;File proses belum didefinisikan
+2020-03-11 13:13:32;2003111313322677;;041213;192.168.20.10;File proses belum didefinisikan
+2020-03-11 15:33:15;2003111533150630;;041213;192.168.20.10;File proses belum didefinisikan
+2020-03-11 16:05:32;2003111605329787;;041213;192.168.20.10;File proses belum didefinisikan
+2020-03-11 16:11:01;2003111611017644;;041213;192.168.20.13;File proses belum didefinisikan
+2020-03-11 16:11:21;2003111611210446;;041213;192.168.20.13;File proses belum didefinisikan
+2020-03-11 16:15:07;2003111615070419;;041213;192.168.20.13;File proses belum didefinisikan
+2020-03-11 16:15:33;2003111615336991;;041213;192.168.20.13;File proses belum didefinisikan
+2020-03-11 16:34:19;2003111634192143;;admin;192.168.20.13;File proses belum didefinisikan
+2020-03-12 09:55:45;2003120955454881;090501;041213;192.168.20.201;File proses : form_info.php tidak ditemukan
+2020-03-12 09:55:52;2003120955522105;090501;041213;192.168.20.201;File proses : form_info.php tidak ditemukan
+2020-03-12 16:10:08;2003121610082205;;041213;192.168.20.201;File proses belum didefinisikan
+2020-03-13 09:29:45;2003130929452673;090501;admin;192.168.20.201;File proses : form_info.php tidak ditemukan
+2020-03-13 09:36:07;2003130936073844;090501;admin;192.168.20.201;File proses : form_info.php tidak ditemukan
+2020-03-13 09:37:41;2003130937419467;;admin;192.168.20.201;File proses belum didefinisikan
+2020-03-13 09:37:59;2003130937593286;;admin;192.168.20.201;File proses belum didefinisikan
+2020-03-13 10:30:00;2003131030004463;090501;041213;192.168.20.201;File proses : form_info.php tidak ditemukan
+2020-03-13 10:35:07;2003131035073192;090501;041213;192.168.20.201;File proses : form_info.php tidak ditemukan
+2020-03-13 10:53:59;2003131053592320;090501;041213;20.21.21.208;File proses : form_info.php tidak ditemukan
+2020-03-13 12:01:19;2003131201192642;090501;041213;20.21.21.208;File proses : form_info.php tidak ditemukan
+2020-03-13 12:04:52;2003131204522871;;041213;20.21.21.208;File proses belum didefinisikan
+2020-03-13 12:06:11;2003131206116465;;041213;20.21.21.208;File proses belum didefinisikan
+2020-03-13 12:07:44;2003131207443420;;041213;20.21.21.208;File proses belum didefinisikan
+2020-03-13 13:08:30;2003131308308934;090501;041213;192.168.20.201;File proses : form_info.php tidak ditemukan
+2020-03-13 13:19:13;2003131319131072;090501;041213;192.168.20.201;File proses : form_info.php tidak ditemukan
+2020-03-13 13:21:01;2003131321015921;;041213;192.168.20.201;File proses belum didefinisikan
+2020-03-13 15:32:16;2003131532160285;090501;admin;192.168.20.201;File proses : form_info.php tidak ditemukan
+2020-03-13 15:39:17;2003131539179343;010202;admin;192.168.20.201;Cannot delete or update a parent row: a foreign key constraint fails (`pdam_billing_msrw`.`tm_pembayaran`, CONSTRAINT `tm_pembayaran_ibfk_1` FOREIGN KEY (`kar_id`) REFERENCES `tm_karyawan` (`kar_id`) ON UPDATE CASCADE)
+2020-03-13 15:39:51;2003131539510955;010202;admin;192.168.20.201;Cannot delete or update a parent row: a foreign key constraint fails (`pdam_billing_msrw`.`tm_pembayaran`, CONSTRAINT `tm_pembayaran_ibfk_1` FOREIGN KEY (`kar_id`) REFERENCES `tm_karyawan` (`kar_id`) ON UPDATE CASCADE)
+2020-03-13 15:53:54;2003131553549410;090501;admin;192.168.20.201;File proses : form_info.php tidak ditemukan
+2020-03-13 15:54:11;2003131554117968;090501;admin;192.168.20.201;File proses : form_info.php tidak ditemukan
+2020-03-13 15:59:19;2003131559194837;090501;admin;192.168.20.201;File proses : form_info.php tidak ditemukan
+2020-03-13 16:01:14;2003131601141318;010202;admin;192.168.20.201;Cannot delete or update a parent row: a foreign key constraint fails (`pdam_billing_msrw`.`tm_pembayaran`, CONSTRAINT `tm_pembayaran_ibfk_1` FOREIGN KEY (`kar_id`) REFERENCES `tm_karyawan` (`kar_id`) ON UPDATE CASCADE)
+2020-03-16 11:53:58;2003161153584589;090501;admin;192.168.20.201;File proses : form_info.php tidak ditemukan
+2020-03-16 13:01:43;2003161301431681;;admin;192.168.20.201;File proses belum didefinisikan
+2020-03-16 13:04:16;2003161304160100;;041213;192.168.20.201;File proses belum didefinisikan
+2020-03-16 13:26:20;2003161326201647;090501;admin;192.168.20.201;File proses : form_info.php tidak ditemukan
+2020-03-16 14:02:33;2003161402339368;090501;041213;192.168.20.201;File proses : form_info.php tidak ditemukan
+2020-03-17 10:46:34;_TOKN;_KODE;_USER;192.168.20.201;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2003171046341404,2,INET_ATON('192.168.20.201'),'','')
+2020-03-24 08:42:21;2003240842213145;090501;admin;20.21.21.208;File proses : form_info.php tidak ditemukan
+2020-04-02 10:48:50;2004021048502948;;123456;20.21.21.208;File proses belum didefinisikan
+2020-04-03 13:35:39;2004031335382458;;041213;20.21.21.208;File proses belum didefinisikan
+2020-04-03 13:35:43;2004031335437384;;041213;20.21.21.208;File proses belum didefinisikan
+2020-04-06 09:50:03;2004060950032743;;041213;20.21.21.208;File proses belum didefinisikan
+2020-04-06 09:51:00;2004060950436280;010102;041213;20.21.21.208;UPDATE tr_dkd SET kar_id='',dkd_tcatat='02',dkd_jalan='Rt 01 Lk 01 B. Jaya',dkd_kd='01011' WHERE dkd_kd='01011'
+2020-04-06 10:09:25;2004061009258935;090501;041213;20.21.21.208;File proses : form_info.php tidak ditemukan
+2020-04-06 10:09:40;2004061009402892;090501;041213;20.21.21.208;File proses : form_info.php tidak ditemukan
+2020-04-06 10:10:04;2004061010042283;;041213;20.21.21.208;File proses belum didefinisikan
+2020-04-06 10:10:09;2004061010096234;;041213;20.21.21.208;File proses belum didefinisikan
+2020-04-06 10:10:15;2004061010152211;;041213;20.21.21.208;File proses belum didefinisikan
+2020-04-06 10:24:51;2004061024511225;090501;041213;20.21.21.208;File proses : form_info.php tidak ditemukan
+2020-04-06 10:29:25;2004061029258519;;041213;20.21.21.208;File proses belum didefinisikan
+2020-04-06 10:29:30;2004061029304628;;041213;20.21.21.208;File proses belum didefinisikan
+2020-04-06 10:48:55;2004061047415657;090401;041213;20.21.21.208;INSERT INTO tm_surat_peringatan (sr_nomor,pel_no,surat_tgl,surat_tipe,surat_ket,kar_id)	VALUES(2004061047415657,'010003',NOW(),'1','-','041213')
+2020-04-06 12:26:51;2004061226517619;090501;041213;20.21.21.208;File proses : form_info.php tidak ditemukan
+2020-04-07 14:59:13;_TOKN;_KODE;_USER;20.21.21.208;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2004071459131229,2,INET_ATON('20.21.21.208'),'','')
+2020-04-07 15:01:08;2004071459327195;050101;admin;20.21.21.208;SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`pdam_billing_msrw`.`tm_pelanggan`, CONSTRAINT `tm_pelanggan_ibfk_5` FOREIGN KEY (`dkd_kd`) REFERENCES `tr_dkd` (`dkd_kd`) ON UPDATE CASCADE)
+2020-04-13 09:49:19;_TOKN;_KODE;_USER;20.21.21.208;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2004130949193613,2,INET_ATON('20.21.21.208'),'','')
+2020-04-13 09:49:54;_TOKN;_KODE;_USER;20.21.21.208;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2004130949543933,2,INET_ATON('20.21.21.208'),'','')
+2020-04-13 09:57:56;_TOKN;_KODE;_USER;20.21.21.208;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2004130957567610,2,INET_ATON('20.21.21.208'),'','')
+2020-04-13 12:03:11;2004131203106271;010202;admin;20.21.21.208;Cannot delete or update a parent row: a foreign key constraint fails (`pdam_billing_msrw`.`tr_trans_log`, CONSTRAINT `tr_trans_log_ibfk_1` FOREIGN KEY (`kar_id`) REFERENCES `tm_karyawan` (`kar_id`) ON UPDATE CASCADE)
+2020-04-13 12:03:11;2004131203113853;010202;admin;20.21.21.208;Cannot delete or update a parent row: a foreign key constraint fails (`pdam_billing_msrw`.`tr_trans_log`, CONSTRAINT `tr_trans_log_ibfk_1` FOREIGN KEY (`kar_id`) REFERENCES `tm_karyawan` (`kar_id`) ON UPDATE CASCADE)
+2020-04-13 12:03:47;_TOKN;_KODE;_USER;20.21.21.208;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2004131203477027,2,INET_ATON('20.21.21.208'),'','')
+2020-04-13 12:06:37;_TOKN;_KODE;_USER;20.21.21.208;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2004131206373580,2,INET_ATON('20.21.21.208'),'','')
+2020-04-13 12:07:00;_TOKN;_KODE;_USER;20.21.21.208;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2004131207004308,2,INET_ATON('20.21.21.208'),'','')
+2020-04-13 12:07:47;_TOKN;_KODE;_USER;20.21.21.208;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2004131207478905,2,INET_ATON('20.21.21.208'),'','')
+2020-04-14 08:17:37;_TOKN;_KODE;_USER;20.21.21.208;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2004140817375686,2,INET_ATON('20.21.21.208'),'','')
+2020-04-15 09:54:35;2004150954349115;090501;041213;20.21.21.208;File proses : form_info.php tidak ditemukan
+2020-04-15 09:54:35;2004150954357491;090501;041213;20.21.21.208;File proses : form_info.php tidak ditemukan
+2020-04-15 09:54:35;2004150954355737;090501;041213;20.21.21.208;File proses : form_info.php tidak ditemukan
+2020-04-15 09:55:59;2004150955446381;010102;041213;20.21.21.208;UPDATE tr_dkd SET kar_id='',dkd_tcatat='02',dkd_jalan='E  WONOKERTO DUSUN 5',dkd_kd='08011' WHERE dkd_kd='08011'
+2020-05-08 13:01:55;_TOKN;_KODE;_USER;192.168.20.18;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2005081301556135,1,INET_ATON('192.168.20.18'),'00','admin')
+2020-05-08 13:02:11;_TOKN;_KODE;_USER;192.168.20.18;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2005081302118116,1,INET_ATON('192.168.20.18'),'00','admin')
+2020-05-08 13:04:33;2005081304339748;090501;admin;192.168.20.18;File proses : form_info.php tidak ditemukan
+2020-05-08 13:04:41;2005081304411900;090501;admin;192.168.20.18;File proses : form_info.php tidak ditemukan
+2020-05-08 13:13:02;2005081313011826;090501;admin;192.168.20.18;File proses : form_info.php tidak ditemukan
+2020-05-08 13:14:34;_TOKN;_KODE;_USER;192.168.20.18;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2005081314345472,2,INET_ATON('192.168.20.18'),'00','admin')
+2020-06-02 09:48:32;_TOKN;_KODE;_USER;192.168.20.10;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006020948323851,1,INET_ATON('192.168.20.10'),'00','admin')
+2020-06-02 09:48:38;_TOKN;_KODE;_USER;192.168.20.10;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006020948388602,1,INET_ATON('192.168.20.10'),'00','admin')
+2020-06-02 15:20:13;2006021520131447;090501;admin;36.71.232.141;File proses : form_info.php tidak ditemukan
+2020-06-03 10:45:11;_TOKN;_KODE;_USER;222.124.124.137;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006031045119713,1,INET_ATON('222.124.124.137'),'00','admin')
+2020-06-03 10:45:36;_TOKN;_KODE;_USER;222.124.124.137;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006031045361105,1,INET_ATON('222.124.124.137'),'00','admin')
+2020-06-11 09:42:12;_TOKN;_KODE;_USER;192.168.20.18;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006110942128489,1,INET_ATON('192.168.20.18'),'00','admin')
+2020-06-11 09:42:22;_TOKN;_KODE;_USER;192.168.20.18;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006110942220935,1,INET_ATON('192.168.20.18'),'00','admin')
+2020-06-11 14:36:17;_TOKN;_KODE;_USER;192.168.20.18;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006111436175970,2,INET_ATON('192.168.20.18'),'00','admin')
+2020-06-11 14:36:58;_TOKN;_KODE;_USER;192.168.20.22;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006111436589038,1,INET_ATON('192.168.20.22'),'00','admin')
+2020-06-11 14:39:53;_TOKN;_KODE;_USER;192.168.20.22;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006111439531118,1,INET_ATON('192.168.20.22'),'00','admin')
+2020-06-11 14:41:29;_TOKN;_KODE;_USER;192.168.20.22;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006111441298962,2,INET_ATON('192.168.20.22'),'00','admin')
+2020-06-11 14:41:43;_TOKN;_KODE;_USER;192.168.20.22;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006111441439502,1,INET_ATON('192.168.20.22'),'00','admin')
+2020-06-11 14:41:48;_TOKN;_KODE;_USER;192.168.20.22;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006111441485465,1,INET_ATON('192.168.20.22'),'00','admin')
+2020-06-11 14:42:08;_TOKN;_KODE;_USER;192.168.20.18;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006111442086311,1,INET_ATON('192.168.20.18'),'00','admin')
+2020-06-11 14:43:46;_TOKN;_KODE;_USER;192.168.20.18;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006111443465281,1,INET_ATON('192.168.20.18'),'00','admin')
+2020-06-11 14:43:53;_TOKN;_KODE;_USER;192.168.20.18;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006111443533578,2,INET_ATON('192.168.20.18'),'00','admin')
+2020-06-11 14:43:58;_TOKN;_KODE;_USER;192.168.20.18;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006111443582235,1,INET_ATON('192.168.20.18'),'00','admin')
+2020-06-11 14:47:29;_TOKN;_KODE;_USER;192.168.20.22;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006111447299835,2,INET_ATON('192.168.20.22'),'00','admin')
+2020-06-11 19:22:20;2006111921307180;010201;admin;114.122.71.192;Incorrect integer value: 'Imput' for column 'grup_id' at row 1
+2020-06-11 21:05:22;_TOKN;_KODE;_USER;192.168.20.18;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006112105228796,2,INET_ATON('192.168.20.18'),'00','admin')
+2020-06-11 21:06:46;_TOKN;_KODE;_USER;192.168.20.18;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006112106463874,1,INET_ATON('192.168.20.18'),'00','admin')
+2020-06-11 21:06:58;_TOKN;_KODE;_USER;192.168.20.18;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006112106587677,1,INET_ATON('192.168.20.18'),'00','admin')
+2020-06-12 07:56:39;_TOKN;_KODE;_USER;192.168.20.18;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006120756394111,2,INET_ATON('192.168.20.18'),'00','admin')
+2020-06-15 13:30:22;_TOKN;_KODE;_USER;192.168.20.18;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006151330228779,1,INET_ATON('192.168.20.18'),'1','admin')
+2020-06-15 13:30:27;_TOKN;_KODE;_USER;192.168.20.18;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006151330279216,1,INET_ATON('192.168.20.18'),'1','admin')
+2020-06-15 13:30:31;_TOKN;_KODE;_USER;192.168.20.18;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006151330318344,2,INET_ATON('192.168.20.18'),'1','admin')
+2020-06-15 14:13:20;_TOKN;_KODE;_USER;222.124.108.171;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006151413202296,1,INET_ATON('222.124.108.171'),'1','admin')
+2020-06-15 14:13:25;_TOKN;_KODE;_USER;222.124.108.171;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006151413258294,1,INET_ATON('222.124.108.171'),'1','admin')
+2020-06-17 14:32:39;_TOKN;_KODE;_USER;192.168.20.22;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006171432390470,1,INET_ATON('192.168.20.22'),'1','admin')
+2020-06-17 14:32:43;_TOKN;_KODE;_USER;192.168.20.22;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006171432431705,1,INET_ATON('192.168.20.22'),'1','admin')
+2020-06-17 14:51:53;_TOKN;_KODE;_USER;192.168.20.22;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006171451536072,2,INET_ATON('192.168.20.22'),'1','admin')
+2020-06-17 14:51:57;_TOKN;_KODE;_USER;192.168.20.22;INSERT tr_trans_log(tr_id,tr_sts,tr_ip,kp_kode,kar_id) VALUES(2006171451572639,1,INET_ATON('192.168.20.22'),'1','admin')
+2020-06-17 19:37:39;_TOKN;_KODE;_USER;36.70.127.252;
+2020-06-17 19:37:42;_TOKN;_KODE;_USER;36.70.127.252;
+2020-06-19 14:16:18;2006191415347746;080301;admin;114.124.196.67;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(2006191415347746,NOW(),'1',201908100100002,'admin','114.124.196.67','N',69000,0,NOW(),1)
+2020-06-19 14:34:25;2006191434258478;;admin;114.124.245.114;File proses belum didefinisikan
+2020-06-19 14:34:28;2006191434287441;;admin;114.124.245.114;File proses belum didefinisikan
+2020-06-21 08:46:46;2006210846464118;;admin;114.122.74.57;File proses belum didefinisikan
+2020-06-21 08:46:52;2006210846526628;;admin;114.122.74.57;File proses belum didefinisikan

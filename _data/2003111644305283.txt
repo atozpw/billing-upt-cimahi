@@ -1,0 +1,8 @@
+C9Mx0ADAFTAR TAGIHAN REKENING AIR
+NO. SAMBUNGAN  : 070031
+NAMA         : Robani                                  GOLONGAN     : 24
+ALAMAT       : Talang Ubi Rt 3                         RAYON        : 07011
+ Tagihan        Stand Meter                  Rincian Biaya                Total
+            Lalu  Kini Pakai    Uang Air  Beban Angsuran      Denda            
+ 1. 202002   137   162    25      53,950  4,500        0          0      58,450
+                                53,950    4,500        0          0      58,450

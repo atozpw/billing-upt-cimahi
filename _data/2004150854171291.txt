@@ -1,0 +1,8 @@
+C9Mx0ADAFTAR TAGIHAN REKENING AIR
+NO. SAMBUNGAN  : 080019
+NAMA         : SUGIARTO                                GOLONGAN     : 24
+ALAMAT       : E  WONOKERTO DUSUN I                    RAYON        : 08011
+ Tagihan        Stand Meter                  Rincian Biaya                Total
+            Lalu  Kini Pakai    Uang Air  Beban Angsuran      Denda            
+ 1. 202002 1,089 1,111    22      45,250  4,500        0      7,500      57,250
+                                45,250    4,500        0      7,500      57,250

@@ -1,0 +1,8 @@
+C9Mx0ADAFTAR TAGIHAN REKENING AIR
+NO. SAMBUNGAN  : 130320
+NAMA         : Masjid M. Tunggal                       GOLONGAN     : 11
+ALAMAT       : M. Tunggal                              RAYON        : 13023
+ Tagihan        Stand Meter                  Rincian Biaya                Total
+            Lalu  Kini Pakai    Uang Air  Beban Angsuran      Denda            
+ 1. 202002 1,615 1,627    12      12,950  4,500        0          0      17,450
+                                12,950    4,500        0          0      17,450

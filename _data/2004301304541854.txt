@@ -1,0 +1,8 @@
+C9Mx0ADAFTAR TAGIHAN REKENING AIR
+NO. SAMBUNGAN  : 100002
+NAMA         : SALAM                                   GOLONGAN     : 21
+ALAMAT       : BLOK A KARYA SAKTI                      RAYON        : 10011
+ Tagihan        Stand Meter                  Rincian Biaya                Total
+            Lalu  Kini Pakai    Uang Air  Beban Angsuran      Denda            
+ 1. 202002   755   766    11      11,600  4,500        0      7,500      23,600
+                                11,600    4,500        0      7,500      23,600

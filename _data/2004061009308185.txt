@@ -1,0 +1,11 @@
+C9x0ALPP REKAP SELURUH KASIR - CECAR
+PENERIMA      : wendy
+PERIODE       : 2020-04-06
+TANGGAL CETAK : 2020-04-06 10:09:30
+STATUS LOKET  : Buka
+________________________________________________________________________________
+         KASIR  JML  PAKAI    UANG AIR     BEBAN   ANGS.      DENDA       TOTAL
+BULAN LALU
+         WENDY    1     27      59,750     4,500       0      7,500      71,750
+BULAN LALU        1     27      59,750     4,500       0      7,500      71,750
+GRAND TOTAL       1     27      59,750     4,500       0      7,500      71,750

@@ -1,0 +1,8 @@
+C9Mx0ADAFTAR TAGIHAN REKENING AIR
+NO. SAMBUNGAN  : 100003
+NAMA         : Neni                                    GOLONGAN     : 1
+ALAMAT       : Ciawitali Selatan No 56 RT/RW 03/19     RAYON        : 11219
+ Tagihan        Stand Meter                  Rincian Biaya                Total
+            Lalu  Kini Pakai    Uang Air  Beban Angsuran      Denda            
+ 1. 202004   836   848    12      25,000 15,000        0      7,500      47,500
+                                25,000   15,000        0      7,500      47,500

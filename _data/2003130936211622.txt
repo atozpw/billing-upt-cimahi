@@ -1,0 +1,8 @@
+C9Mx0ADAFTAR TAGIHAN REKENING AIR
+NO. SAMBUNGAN  : 010001
+NAMA         : H. Babul Hasan                          GOLONGAN     : 24
+ALAMAT       : Rt 01 Lk 01 B. Jaya                     RAYON        : 01011
+ Tagihan        Stand Meter                  Rincian Biaya                Total
+            Lalu  Kini Pakai    Uang Air  Beban Angsuran      Denda            
+ 1. 202002 1,300 1,312    12      20,850  4,500        0          0      25,350
+                                20,850    4,500        0          0      25,350

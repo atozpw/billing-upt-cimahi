@@ -1,0 +1,8 @@
+C9Mx0ADAFTAR TAGIHAN REKENING AIR
+NO. SAMBUNGAN  : 020215
+NAMA         : Sayonara                                GOLONGAN     : 24
+ALAMAT       : Prabumulih 2                            RAYON        : 02021
+ Tagihan        Stand Meter                  Rincian Biaya                Total
+            Lalu  Kini Pakai    Uang Air  Beban Angsuran      Denda            
+ 1. 202002 1,126 1,143    17      32,475  4,500        0          0      36,975
+                                32,475    4,500        0          0      36,975

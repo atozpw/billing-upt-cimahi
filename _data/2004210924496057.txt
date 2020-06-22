@@ -1,0 +1,8 @@
+C9Mx0ADAFTAR TAGIHAN REKENING AIR
+NO. SAMBUNGAN  : 100678
+NAMA         : KASTONI                                 GOLONGAN     : 24
+ALAMAT       : DUSUN IV DESA MAMBANG KEC. MUARA KELINGIRAYON        : 10031
+ Tagihan        Stand Meter                  Rincian Biaya                Total
+            Lalu  Kini Pakai    Uang Air  Beban Angsuran      Denda            
+ 1. 202002   101   115    14      25,500  4,500        0      7,500      37,500
+                                25,500    4,500        0      7,500      37,500

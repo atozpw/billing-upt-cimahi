@@ -1,0 +1,35 @@
+.prn_table{
+	font-size: 8pt;
+	font-family: verdana, helvetica, sans-serif;
+	size: landscape;
+}
+.prn_head{
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 1px solid #000000;
+	border-top: 1px solid #000000;
+}
+.prn_cell{
+	text-align: right;
+	border-bottom: 1px solid #000000;
+}
+.prn_total{
+	font-weight: bold;
+	text-align: right;
+	border-bottom: 1px solid #000000;
+}
+.prn_bold{
+	font-weight: bold;
+}
+.prn_left{
+	text-align: left;
+}
+.prn_right{
+	text-align: right;
+}
+.prn_center{
+	text-align: center;
+}
+.cetak{display: none;}
+.prn_breakhere{page-break-after: always;}
+@page { margin: 5mm 10mm 5mm 10mm; }

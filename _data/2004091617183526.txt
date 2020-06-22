@@ -1,0 +1,8 @@
+C9Mx0ADAFTAR TAGIHAN REKENING AIR
+NO. SAMBUNGAN  : 031039
+NAMA         : UNTUNG SUGIARTO                         GOLONGAN     : 24
+ALAMAT       : MA.BELITI                               RAYON        : 03015
+ Tagihan        Stand Meter                  Rincian Biaya                Total
+            Lalu  Kini Pakai    Uang Air  Beban Angsuran      Denda            
+ 1. 202002    66    69     3      16,200  4,500        0      7,500      28,200
+                                16,200    4,500        0      7,500      28,200

@@ -1,0 +1,14 @@
+C9x0ALPP RINCI PER PELAKSANA KAS 
+PENERIMA      : wendy
+PERIODE       : 2020-03-11
+TANGGAL CETAK : 2020-03-11 16:33:22
+STATUS LOKET  : Buka
+NO. BULAN  NO.SL       NAMA     GOL LKT PAKAI BIAYA AIR   ANGS. DENDA    TOTAL  
+Bulan Berjalan
+1   202002 070001 Sunarto         24Loket Berjalan    15   32,325       0       0   32,325
+2   202002 100024 TAUFIK          24Loket Berjalan     0   20,700       0       0   20,700
+RESUME              :  LBR  PAKAI   BIAYA AIR   ANGSURAN      DENDA       TOTAL
+Bulan Berjalan      :    2     15      53,025          0          0      53,025
+Grand Total         :    2     15      53,025          0      53,025
+
+

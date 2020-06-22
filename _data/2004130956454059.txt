@@ -1,0 +1,8 @@
+C9Mx0ADAFTAR TAGIHAN REKENING AIR
+NO. SAMBUNGAN  : 030001
+NAMA         : DINAS PU CIPTA KARYA                    GOLONGAN     : 34
+ALAMAT       : KOMPLEK PERKANTORAN                     RAYON        : 03011
+ Tagihan        Stand Meter                  Rincian Biaya                Total
+            Lalu  Kini Pakai    Uang Air  Beban Angsuran      Denda            
+ 1. 202002    19    21     2      24,950  4,500        0      7,500      36,950
+                                24,950    4,500        0      7,500      36,950

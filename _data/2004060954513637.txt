@@ -1,0 +1,8 @@
+C9Mx0ADAFTAR TAGIHAN REKENING AIR
+NO. SAMBUNGAN  : 010002
+NAMA         : Sahril                                  GOLONGAN     : 24
+ALAMAT       : Rt 01 Lk 01 B. Jaya                     RAYON        : 01011
+ Tagihan        Stand Meter                  Rincian Biaya                Total
+            Lalu  Kini Pakai    Uang Air  Beban Angsuran      Denda            
+ 1. 202002   893   920    27      59,750  4,500        0      7,500      71,750
+                                59,750    4,500        0      7,500      71,750

@@ -1,0 +1,11 @@
+C9x0ALPP REKAP SELURUH KASIR - MEGANG SAKTI
+PENERIMA      : wendy
+PERIODE       : 2020-03-11
+TANGGAL CETAK : 2020-03-11 16:22:50
+STATUS LOKET  : Buka
+________________________________________________________________________________
+         KASIR  JML  PAKAI    UANG AIR     BEBAN   ANGS.      DENDA       TOTAL
+BULAN BERJALAN
+         WENDY    1      0      16,200     4,500       0          0      20,700
+BULAN BERJALAN    1      0      16,200     4,500       0          0      20,700
+GRAND TOTAL       1      0      16,200     4,500       0          0      20,700
