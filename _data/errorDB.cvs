@@ -1006,3 +1006,23 @@
 2020-06-19 14:34:28;2006191434287441;;admin;114.124.245.114;File proses belum didefinisikan
 2020-06-21 08:46:46;2006210846464118;;admin;114.122.74.57;File proses belum didefinisikan
 2020-06-21 08:46:52;2006210846526628;;admin;114.122.74.57;File proses belum didefinisikan
+2020-06-22 16:02:52;2006221602522531;;admin;127.0.0.1;File proses belum didefinisikan
+2020-06-22 16:02:55;2006221602559599;;admin;127.0.0.1;File proses belum didefinisikan
+2020-06-22 16:03:27;2006221603276198;;admin;127.0.0.1;File proses belum didefinisikan
+2020-06-22 16:03:29;2006221603295194;;admin;127.0.0.1;File proses belum didefinisikan
+2020-06-22 16:06:03;2006221606032827;;admin;127.0.0.1;File proses belum didefinisikan
+2020-06-22 20:01:20;2006222001208232;000000;_USER;127.0.0.1;Table 'pdam_uptcimahi.v_menu_item' doesn't exist
+2020-06-22 20:01:20;2006222001205019;000000;_USER;127.0.0.1;Table 'pdam_uptcimahi.v_menu_item' doesn't exist
+2020-06-22 20:01:27;2006222001276105;000000;admin;127.0.0.1;Table 'pdam_uptcimahi.v_menu_item' doesn't exist
+2020-06-22 20:01:27;2006222001277724;000000;admin;127.0.0.1;Table 'pdam_uptcimahi.v_menu_item' doesn't exist
+2020-06-22 20:01:37;2006222001373620;000000;admin;127.0.0.1;Table 'pdam_uptcimahi.v_menu_item' doesn't exist
+2020-06-22 20:01:37;2006222001374079;000000;admin;127.0.0.1;Table 'pdam_uptcimahi.v_menu_item' doesn't exist
+2020-06-22 21:04:56;2006222104313770;010102;admin;127.0.0.1;INSERT INTO tr_dkd(dkd_kd,dkd_no,dkd_jalan,dkd_loket,kar_id,dkd_tcatat) VALUES('10000',SUBSTR('10000',-2),'testing jalan','00','',01)
+2020-06-23 12:25:25;2006231225251085;090501;admin;127.0.0.1;File proses : form_info.php tidak ditemukan
+2020-06-23 12:25:33;2006231225337936;090501;admin;127.0.0.1;File proses : form_info.php tidak ditemukan
+2020-06-23 12:46:33;2006231246250968;080301;admin;127.0.0.1;INSERT INTO tm_pembayaran(byr_no,byr_tgl,byr_serial,rek_nomor,kar_id,lok_ip,byr_loket,byr_total,byr_cetak,byr_upd_sts,byr_sts) VALUES(2006231246250968,NOW(),'1',202003101104593,'admin','127.0.0.1','N',48000,0,NOW(),1)
+2020-06-29 20:51:15;2006292051153717;;admin;127.0.0.1;File proses belum didefinisikan
+2020-06-29 20:52:12;2006292052124890;;admin;127.0.0.1;File proses belum didefinisikan
+2020-06-29 20:58:23;2006292058212207;060202;admin;127.0.0.1;CREATE TEMPORARY TABLE tmp_2006292058234947 SELECT *FROM v_pengumuran_piutang WHERE kp_kode='1' 
+2020-06-29 20:59:42;2006292058212207;060202;admin;127.0.0.1;CREATE TEMPORARY TABLE tmp_2006292059429087 SELECT *FROM v_pengumuran_piutang WHERE kp_kode='2' 
+2020-06-29 21:01:19;2006292101171579;060202;admin;127.0.0.1;CREATE TEMPORARY TABLE tmp_2006292101194966 SELECT *FROM v_pengumuran_piutang WHERE kp_kode='1' 

@@ -10,9 +10,9 @@
 	/* koneksi database */
 	/* link : link baca */
 	$mess 	= "user : ".$DUSER." tidak bisa terhubung ke server : ".$DHOST;
-	$link 	= mysql_connect($DHOST,$DUSER,$DPASS) or die(errorLog::errorDie(array($mess)));
+	$link 	= mysqli_connect($DHOST,$DUSER,$DPASS,$DNAME) or die(errorLog::errorDie(array($mess)));
 	try{
-		if(!mysql_select_db($DNAME,$link)){
+		if(!$link){
 			throw new Exception("user : ".$DUSER." tidak bisa terhubung ke database : ".$DNAME);
 		}
 	}
@@ -27,12 +27,13 @@
 	$kopel		= explode("_",$kopel);
 	$que0 		= "SELECT *,DATE_FORMAT(rd_tgl, '%d/%m/%Y') AS tgl_reduksi FROM v_reduksi WHERE YEAR(rd_tgl)=YEAR(NOW()) AND MONTH(rd_tgl)=MONTH(NOW()) AND kp_kode='".$kopel[0]."' ORDER BY rd_tgl,pel_no,rek_thn,rek_bln"; 
 	try{
-		if(!$res0 = mysql_query($que0,$link)){
+		if(!$res0 = $link->query($que0)){
 			throw new Exception($que0);
 		}
 		else{
 			$i = 0;
-			while($row0 = mysql_fetch_array($res0)){
+			$data = array();
+			while($row0 = $res0->fetch_array()){
 				$data[] = $row0;
 				$i++;	
 			}

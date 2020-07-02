@@ -1,4 +1,5 @@
 <?php
+	error_reporting(E_ALL ^ E_NOTICE);
 	require "model/setDB.php";
 	require "model/logging.php";
 	require "fungsi.php";
@@ -11,7 +12,11 @@
 	$nilai	= $_POST;
 	$konci	= array_keys($nilai);
 	for($i=0;$i<count($konci);$i++){
-		$$konci[$i]	= $nilai[$konci[$i]];
+		if(PHP_VERSION < 7){
+			$$konci[$i]	= $nilai[$konci[$i]];
+		}else{
+			${$konci[$i]} = $nilai[$konci[$i]];
+		}
 	}
 	/* getParam **/
 	
@@ -37,9 +42,9 @@
 	/** koneksi database */
 	/* link : link baca */
 	$mess 	= "user : ".$DUSER." tidak bisa terhubung ke server : ".$DHOST;
-	$link 	= mysql_connect($DHOST,$DUSER,$DPASS) or die(errorLog::errorDie(array($mess)));
+	$link 	= mysqli_connect($DHOST,$DUSER,$DPASS,$DNAME) or die(errorLog::errorDie(array($mess)));
 	try{
-		if(!mysql_select_db($DNAME,$link)){
+		if(!$link){
 			throw new Exception("user : ".$DUSER." tidak bisa terhubung ke database : ".$DNAME);
 		}
 		else{

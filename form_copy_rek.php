@@ -60,11 +60,11 @@
 				else{
 					$que0 	= "SELECT a.*,IF((rek_bln=".$rek_bln." AND rek_thn=".$rek_thn."),1,0) AS pilih FROM v_lpp a WHERE a.kar_id='"._USER."' AND a.pel_no='$pel_no' AND MONTH(a.byr_tgl)=MONTH(CURDATE()) AND a.byr_sts>0 ORDER BY a.rek_thn ASC,a.rek_bln ASC";
 				}
-				if(!$res0 = mysql_query($que0,$link)){
-					throw new Exception(mysql_error($link));
+				if(!$res0 = $link->query($que0)){
+					throw new Exception($link->error);
 				}
 				else{
-					while($row0 = mysql_fetch_array($res0)){
+					while($row0 = $res0->fetch_array()){
 						$data[] 		= $row0;
 						$grandTotal[]	= $row0['rek_total'] + $row0['rek_denda'] + $row0['rek_materai'];
 						$pel_nama		= $row0['pel_nama'];
@@ -84,12 +84,16 @@
 					memindahkan semua nilai dalam array POST ke dalam
 					variabel yang bersesuaian dengan masih kunci array
 				*/
-				$res0 	= mysql_query($que0,$link);
+				$res0 	= $link->query($que0);
 				if($res0){
-					$nilai	= mysql_fetch_array($res0);
+					$nilai	= $res0->fetch_array();
 					$konci	= array_keys($nilai);
 					for($j=0;$j<count($konci);$j++){
-						$$konci[$j]	= $nilai[$konci[$j]];
+						if(PHP_VERSION < 7){
+							$$konci[$j]	= $nilai[$konci[$j]];
+						}else{
+							${$konci[$j]} = $nilai[$konci[$j]];
+						}
 					}
 					/* getParam **/
 					$o_awalA	= " ";
@@ -130,7 +134,7 @@
 				errorLog::errorDB(array($que0));
 				$mess = "Terjadi kesalahan pada sistem<br/>Nomor Tiket : ".substr(_TOKN,-4);
 			}
-			if(!$erno) mysql_close($link);
+			if(!$erno) $link->close();
 ?>
 <h2 class="cetak"><?php echo _NAME; ?></h2><hr class="cetak" />
 <input id="<?php echo $errorId; ?>" type="hidden" value="<?=$mess?>"/>
@@ -218,7 +222,11 @@
 					$nilai	= $data[$i];
 					$konci	= array_keys($nilai);
 					for($j=0;$j<count($konci);$j++){
-						$$konci[$j]	= $nilai[$konci[$j]];
+						if(PHP_VERSION < 7){
+							$$konci[$j]	= $nilai[$konci[$j]];
+						}else{
+							${$konci[$j]} = $nilai[$konci[$j]];
+						}
 					}
 					/* getParam **/
 					$form = false;
@@ -239,7 +247,7 @@
 							default:
 								$noresi = "C";
 						}
-						$rek_bayar = $grandTotal[$i];l
+						$rek_bayar = $grandTotal[$i];
 ?>
 	<tr class="<?=$class_nya?>">
 		<td class="right"><?=($i+1)?></td>
@@ -372,8 +380,8 @@
 			break;
 		default:
 			$que1	= "SELECT MAX(tr_sts) AS tr_sts FROM tr_trans_log WHERE DATE(getTanggal(tr_id))=CURDATE() AND kar_id='"._USER."'";
-			$res1 	= mysql_query($que1,$link);
-			$row1 	= mysql_fetch_array($res1);
+			$res1 	= $link->query($que1);
+			$row1 	= $res1->fetch_array();
 			$tr_sts	= abs($row1['tr_sts']);
 			switch($tr_sts){
 				case 3:

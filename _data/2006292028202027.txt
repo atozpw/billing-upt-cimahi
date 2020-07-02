@@ -1,0 +1,12 @@
+C9x0ALPP RINCI PER PELAKSANA KAS 
+PENERIMA      : Administrator
+PERIODE       : 2020-06-29
+TANGGAL CETAK : 2020-06-29 20:28:20
+STATUS LOKET  : Buka
+NO. BULAN  NO.SL       NAMA     GOL LKT PAKAI BIAYA AIR   ANGS. DENDA    TOTAL  
+2 Bulan lalu
+1                                    [B]     0        0       0       0        0
+RESUME              :  LBR  PAKAI   BIAYA AIR   ANGSURAN      DENDA       TOTAL
+2 Bulan lalu        :    0      0           0          0          0           0
+Grand Total         :    0      0           0          0           0
+

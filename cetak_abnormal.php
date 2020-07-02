@@ -34,11 +34,11 @@
 			break;
 	}
 	try{
-		if(!$res0 = mysql_query($que0,$link)){
+		if(!$res0 = $link->query($que0)){
 			throw new Exception($que0);
 		}
 		else{
-			while($row0 = mysql_fetch_array($res0)){
+			while($row0 = $res0->fetch_array()){
 				$data[] = $row0;
 			}
 		$mess = false;

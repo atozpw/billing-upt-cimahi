@@ -5,11 +5,12 @@
 
 	$que0 	= "SELECT a.pel_no,a.pel_nama,a.rek_gol AS gol_kode,a.dkd_kd,a.rek_stanlalu,a.rek_stankini,(a.rek_stankini-a.rek_stanlalu) AS rek_pakai,a.rek_uangair,(a.rek_meter+a.rek_adm) AS rek_beban,a.rek_angsuran,a.rek_total,CONCAT('JALAN : [',b.dkd_kd,'] ',b.dkd_jalan) AS rayon FROM tm_rekening a JOIN tr_dkd b ON(b.dkd_kd=a.dkd_kd) JOIN tm_pelanggan d ON(d.pel_no=a.pel_no) WHERE a.rek_sts=1 AND a.rek_byr_sts=0 AND a.rek_bln=$rek_bln AND a.rek_thn=$rek_thn AND d.kp_kode='".$kp_kode."' AND a.dkd_kd='".$dkd_kd."' ORDER BY a.dkd_kd,a.pel_no";
 	try{
-		if(!$res0 = mysql_query($que0,$link)){
+		if(!$res0 = $link->query($que0)){
 			throw new Exception($que0);
 		}
 		else{
-			while($row0 = mysql_fetch_array($res0)){
+			$data = array();
+			while($row0 = $res0->fetch_array()){
 				$data[] = $row0;
 			}
 			$mess = false;

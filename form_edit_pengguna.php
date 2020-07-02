@@ -6,11 +6,11 @@
 	/* retrieve data pdam */
 	try{
 		$que1 = "SELECT kp_kode,kp_ket AS kp_nama FROM tr_kota_pelayanan ORDER BY kp_kode";
-		if(!$res1 = mysql_query($que1,$link)){
+		if(!$res1 = $link->query($que1)){
 			throw new Exception("Terjadi kesalahan pada sistem database<br/>Nomor Tiket : ".substr(_TOKN,-4));
 		}
 		else{
-			while($row1 = mysql_fetch_array($res1)){
+			while($row1 = $res1->fetch_array()){
 				$data1[] = array("kp_kode"=>$row1['kp_kode'],"kp_nama"=>$row1['kp_nama']);
 			}
 			$mess = false;
@@ -26,12 +26,12 @@
 	/* retrieve data grup */
 	try{
 		$que2 = "SELECT *FROM tm_group";
-		if(!$res2 = mysql_query($que2,$link)){
+		if(!$res2 = $link->query($que2)){
 			throw new Exception("Terjadi kesalahan pada sistem database<br/>Nomor Tiket : ".substr(_TOKN,-4));
 		}
 		else{
 			$data2[] = array("grup_id"=>"-","grup_nama"=>"-");
-			while($row2 = mysql_fetch_array($res2)){
+			while($row2 = $res2->fetch_array()){
 				$data2[] = array("grup_id"=>$row2['grup_id'],"grup_nama"=>$row2['grup_nama']);
 			}
 			$mess = false;
@@ -44,7 +44,7 @@
 	}
 	$parm2 = array("class"=>"simpan","name"=>"grup_id","selected"=>$grup_id);
 	
-	if(!$erno) mysql_close($link);
+	if(!$erno) $link->close();
 ?>
 <div id="<?php echo $formId; ?>" class="peringatan">
 <input type="hidden" id="keyProses0" 	value="1" />

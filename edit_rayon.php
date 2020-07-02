@@ -18,7 +18,7 @@
 			if($db){
 				try {
 					$db->beginTransaction();
-					$que	= "INSERT INTO tr_dkd(dkd_kd,dkd_no,dkd_jalan,dkd_loket,kar_id,dkd_tcatat) VALUES('".$dkd_kd."',SUBSTR('".$dkd_kd."',-2),'".trim($dkd_jalan)."','00','".$dkd_pembaca."',".$dkd_tcatat.")";
+					$que	= "INSERT INTO tr_dkd(dkd_kd,dkd_no,dkd_jalan,dkd_loket,kar_id,dkd_tcatat) VALUES('".$dkd_kd."',SUBSTR('".$dkd_kd."',-2),'".trim($dkd_jalan)."',SUBSTR('".$dkd_kd."',1,1),'".$dkd_pembaca."',".$dkd_tcatat.")";
 					$st 	= $db->exec($que);
 					$db->commit();
 					errorLog::logDB(array($que));

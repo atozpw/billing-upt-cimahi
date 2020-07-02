@@ -2,8 +2,8 @@
 	if($erno) die();
 	unset($mess);
 	$que1	= "SELECT MAX(tr_sts) AS tr_sts FROM tr_trans_log WHERE DATE(getTanggal(tr_id))=CURDATE() AND kar_id='"._USER."'";
-	$res1 	= mysql_query($que1,$link);
-	$row1 	= mysql_fetch_array($res1);
+	$res1 	= $link->query($que1);
+	$row1 	= $res1->fetch_array();
 	$tr_sts	= abs($row1['tr_sts']);
 	switch(_KODE){
 		case '081301':

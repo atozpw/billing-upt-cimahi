@@ -17,11 +17,11 @@
 			$que0 = "SELECT *,getMenu('$grup_id',appl_kode) AS appl_sts FROM v_menu_billing WHERE parent_id='000000'";
 	}
 	try{		
-		if(!$res0 = mysql_query($que0,$link)){
+		if(!$res0 = $link->query($que0)){
 			throw new Exception("Terjadi kesalahan pada sistem database<br/>Nomor Tiket : ".substr(_TOKN,-4));
 		}
 		else{
-			while($row0 = mysql_fetch_object($res0)){
+			while($row0 = $res0->fetch_object()){
 				$data[] = $row0;
 			}
 			$mess 		= false;
@@ -32,7 +32,7 @@
 		$mess = $e->getMessage();
 		$erno = false;
 	}
-	if(!$erno) mysql_close($link);
+	if(!$erno) $link->close();
 	switch($proses){
 		case "hide":
 ?>

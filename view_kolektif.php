@@ -31,12 +31,12 @@
 	
 	/** inquiry data */
 	try{
-		if(!$res0 = mysql_query($que0,$link)){
+		if(!$res0 = $link->query($que0)){
 			throw new Exception($que0);
 		}
 		else{
 			$i = 0;
-			while($row0 = mysql_fetch_array($res0)){
+			while($row0 = $res0->fetch_array()){
 				$data[] = $row0;
 				$i++;	
 		}
@@ -52,7 +52,7 @@
 		$mess = "Terjadi kesalahan pada sistem<br/>Nomor Tiket : ".substr(_TOKN,-4);
 	}
 	
-	if(!$erno) mysql_close($link);
+	if(!$erno) $link->close();
 ?>
 <input type="hidden" id="<?php echo $errorId; ?>" value="<?php echo $mess; ?>"/>
 <input type="hidden" class="kembali refresh cari next_page pref_page tambah" 	name="appl_kode" 	value="<?php echo _KODE; 		?>"/>
@@ -111,7 +111,11 @@
 		$nilai	= $data[$i];
 		$konci	= array_keys($nilai);
 		for($j=0;$j<count($konci);$j++){
-			$$konci[$j]	= $nilai[$konci[$j]];
+			if(PHP_VERSION < 7){
+				$$konci[$j]	= $nilai[$konci[$j]];
+			}else{
+				${$konci[$j]} = $nilai[$konci[$j]];
+			}
 		}
 		/* getParam **/
 		$comm	= "cetak_$i hapus_$i";
@@ -191,7 +195,11 @@
 		$nilai	= $data[$i];
 		$konci	= array_keys($nilai);
 		for($j=0;$j<count($konci);$j++){
-			$$konci[$j]	= $nilai[$konci[$j]];
+			if(PHP_VERSION < 7){
+				$$konci[$j]	= $nilai[$konci[$j]];
+			}else{
+				${$konci[$j]} = $nilai[$konci[$j]];
+			}
 		}
 		/* getParam **/
 		

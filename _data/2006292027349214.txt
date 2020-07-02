@@ -1,0 +1,11 @@
+C9x0ALPP REKAP SELURUH KASIR - CIMAHI UTARA
+PENERIMA      : Administrator
+PERIODE       : 2020-06-29
+TANGGAL CETAK : 2020-06-29 20:27:34
+STATUS LOKET  : Buka
+________________________________________________________________________________
+         KASIR  JML  PAKAI    UANG AIR     BEBAN   ANGS.      DENDA       TOTAL
+2 BULAN LALU
+                  0      0           0         0       0          0           0
+2 BULAN LALU      0      0           0         0       0          0           0
+GRAND TOTAL       0      0           0         0       0          0           0

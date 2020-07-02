@@ -16,9 +16,9 @@
 	/* koneksi database */
 	/* link : link baca */
 	$mess 	= "user : ".$DUSER." tidak bisa terhubung ke server : ".$DHOST;
-	$link 	= mysql_connect($DHOST,$DUSER,$DPASS) or die(errorLog::errorDie(array($mess)));
+	$link 	= mysqli_connect($DHOST,$DUSER,$DPASS,$DNAME) or die(errorLog::errorDie(array($mess)));
 	try{
-		if(!mysql_select_db($DNAME,$link)){
+		if(!$link){
 			throw new Exception("user : ".$DUSER." tidak bisa terhubung ke database : ".$DNAME);
 		}
 	}
@@ -36,11 +36,11 @@
 			/** 2.  retrieve kode klaim */
 			try{
 				$que1 = "SELECT *FROM tr_klaim";
-				if(!$res1 = mysql_query($que1,$link)){
+				if(!$res1 = $link->query($que1)){
 					throw new Exception($que1);
 				}
 				else{
-					while($row1 = mysql_fetch_array($res1)){
+					while($row1 = $res1->fetch_array()){
 						$data2[] = array("kl_kode"=>$row1['kl_kode'], "kl_ket"=>$row1['kl_ket']);
 					}
 					$parm2	= array("class"=>"proses hitung","name"=>"kl_kode","selected"=>$kl_kode);
@@ -60,13 +60,13 @@
 			/* hitung perubahan rekening air */
 			try{
 				$que0 = "CALL p_hitung_rekening('$rek_gol','$rek_bln','$rek_thn','$pakai_klaim','1',@b_air,@b_adm,@b_meter)";
-				if(!$res0 = mysql_query($que0,$link)){
+				if(!$res0 = $link->query($que0)){
 					throw new Exception($que0);
 				}
 				else{
 					$que2 = "SELECT @b_air AS klaim_uangair";
-					$res2 = mysql_query($que2,$link);
-					$row2 = mysql_fetch_array($res2);
+					$res2 = $link->query($que2);
+					$row2 = $res2->fetch_array();
 					$klaim_uangair = $row2['klaim_uangair'];
 					$klaim_total = $klaim_uangair + $rek_beban;
 					$mess = false;
@@ -159,12 +159,12 @@
 			
 			/** 1. retrieve data pelanggan */
 			try{
-				if(!$res0 = mysql_query($que0,$link)){
+				if(!$res0 = $link->query($que0)){
 					throw new Exception($que0);
 				}
 				else{
 					$i = 0;
-					while($row0 = mysql_fetch_array($res0)){
+					while($row0 = $res0->fetch_array()){
 						$data0[] 	= $row0;
 						$pel_no		= $row0['pel_no'];
 						$i++;
@@ -184,11 +184,11 @@
 			/** 2.  retrieve kode klaim */
 			try{
 				$que1 = "SELECT *FROM tr_klaim";
-				if(!$res1 = mysql_query($que1,$link)){
+				if(!$res1 = $link->query($que1)){
 					throw new Exception($que1);
 				}
 				else{
-					while($row1 = mysql_fetch_array($res1)){
+					while($row1 = $res1->fetch_array()){
 						$data2[] = array("kl_kode"=>$row1['kl_kode'], "kl_ket"=>$row1['kl_ket']);
 					}
 					$parm2	= array("class"=>"proses hitung","name"=>"kl_kode","selected"=>"2");
@@ -203,11 +203,11 @@
 			/** 3. retrieve catatan klaim */
 			try{
 				$que4 = "SELECT a.*,b.rek_uangair AS cl_uangair_awal FROM tm_klaim a JOIN tm_rekening b ON(b.rek_nomor=a.rek_nomor) WHERE a.pel_no='$pel_no' AND ABS(SUBSTR(a.rek_nomor,5,2))=$rek_bln AND SUBSTR(a.rek_nomor,1,4)=$rek_thn ORDER BY a.cl_tgl";
-				if(!$res4 = mysql_query($que4,$link)){
+				if(!$res4 = $link->query($que4)){
 					throw new Exception($que4);
 				}
 				else{
-					while($row4 = mysql_fetch_array($res4)){
+					while($row4 = $res4->fetch_array()){
 						$data4[] = $row4;
 					}
 					$mess 	= false;
@@ -221,11 +221,11 @@
 			/* 4. retrive drd awal */
 			try {
 				$que3 = "SELECT rek_nomor,rek_bln,rek_thn,dkd_kd,rek_stanlalu,rek_stankini,rek_uangair,rek_total,rek_gol FROM tm_rekening WHERE pel_no='$pel_no' AND rek_bln =$rek_bln AND rek_thn=$rek_thn ORDER BY rek_tgl ASC LIMIT 1";
-				if(!$res3 = mysql_query($que3,$link)){
+				if(!$res3 = $link->query($que3)){
 					throw new Exception($que3);
 				}
 				else{
-					$row3 		= mysql_fetch_array($res3);
+					$row3 		= $res3->fetch_array();
 					if(isset($onProses)){
 						$rek_stanlalu = $rek_stanklaim;
 					}
@@ -246,11 +246,11 @@
 			/* 5. retrive status bayar */
 			try {
 				$que5 = "SELECT COUNT(rek_nomor) AS sts_bayar FROM tm_rekening WHERE pel_no='$pel_no' AND rek_bln =$rek_bln AND rek_thn=$rek_thn AND rek_sts=1 AND rek_byr_sts=0";
-				if(!$res5 = mysql_query($que5,$link)){
+				if(!$res5 = $link->query($que5)){
 					throw new Exception($que5);
 				}
 				else{
-					$row5 		= mysql_fetch_array($res5);
+					$row5 		= $res5->fetch_array();
 					$sts_bayar	= $row5['sts_bayar'];
 					$mess 		= false;
 				}

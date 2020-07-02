@@ -52,9 +52,9 @@
 			$kembali	= false;
 		}
 		try{
-			$res0 = mysql_query($que0,$link);
+			$res0 = $link->query($que0);
 			$halT = 0;
-			while($row0 = mysql_fetch_assoc($res0)){
+			while($row0 = $res0->fetch_assoc()){
 				$data[$row0['periode']][] = $row0;
 				$halT++;
 			}
@@ -198,7 +198,11 @@
 					}
 					$kunci	= array_keys($nilai);
 					for($m=0;$m<count($kunci);$m++){
-						$$kunci[$m] = $nilai[$kunci[$m]];
+						if(PHP_VERSION < 7){
+							$$kunci[$m]	= $nilai[$kunci[$m]];
+						}else{
+							${$kunci[$m]} = $nilai[$kunci[$m]];
+						}
 					}
 					$l0_pakai[] 	= $pemakaian;
 					$l0_uangair[]	= $rek_uangair;

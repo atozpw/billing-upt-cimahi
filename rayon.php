@@ -49,12 +49,12 @@
 			$hint 		= "<div class=\"notice\">Tekan tombol <b>Enter</b> untuk melakukan pencarian data, <b>&larr;</b> dan <b>&rarr;</b> untuk navigasi halaman, <b>&uarr;</b> dan <b>&darr;</b> untuk memilih rincian setiap rayon, kemudian <b>Space</b> untuk melihat rinciannya.</div>";
 	}
 	try{
-		if(!$res0 = mysql_query($que0,$link)){
-			throw new Exception(mysql_error($link));
+		if(!$res0 = $link->query($que0)){
+			throw new Exception($link->error);
 		}
 		else{
 			$i = 0;
-			while($row0 = mysql_fetch_array($res0)){
+			while($row0 = $res0->fetch_array()){
 				$data[] = $row0;
 				if(!isset($dkd_kd)){
 					$dkd_kd = $row0['dkd_kd'];
@@ -123,7 +123,11 @@
 		$nilai	= $data[$i];
 		$konci	= array_keys($nilai);
 		for($j=0;$j<count($konci);$j++){
-			$$konci[$j]	= $nilai[$konci[$j]];
+			if(PHP_VERSION < 7){
+				$$konci[$j]	= $nilai[$konci[$j]];
+			}else{
+				${$konci[$j]} = $nilai[$konci[$j]];
+			}
 		}
 ?>
 	<tr class="<?php echo $klas; ?>">
@@ -164,5 +168,5 @@
 <input id="aktiveForm" type="hidden" value="0"/>
 <?php
 	}
-	if(!$erno) mysql_close($link);
+	if(!$erno) $link->close();
 ?>

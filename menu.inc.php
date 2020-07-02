@@ -13,14 +13,14 @@
 	define("_TOKN",getToken());
 	$erno = false;
 	
-	$link 	= mysql_connect($DHOST,$DUSER,$DPASS) or die(errorLog::errorDie(array(mysql_error())));
-	mysql_select_db($DNAME,$link) or die(errorLog::errorDie(array(mysql_error())));
+	$link 	= mysqli_connect($DHOST,$DUSER,$DPASS,$DNAME) or die(errorLog::errorDie(array(mysql_error())));
+
 	try{
 		$que0 = "SELECT *FROM v_menu_item WHERE appl_sts=0 AND getMenu('"._GRUP."',appl_kode)>0";
-		if(!$res = mysql_query($que0,$link)){
-			throw new Exception(mysql_error($link));
+		if(!$res = $link->query($que0)){
+			throw new Exception($link->error);
 		}
-		while($row	= mysql_fetch_assoc($res)){
+		while($row	= $res->fetch_assoc()){
 			if($row['l2'] == '00' and $row['l3'] == '00'){
 				$l1[$row['appl_kode']]['appl_kode'] = $row['appl_kode'];
 				$l1[$row['appl_kode']]['appl_name'] = $row['appl_name'];
@@ -41,7 +41,7 @@
 		errorLog::errorDB(array($e->getMessage()));
 		$erno = true;
 	}
-	mysql_close($link);
+	$link->close();
 	if($erno){
 		$mess = "Terjadi kesalahan pada sistem<br/>Nomor Tiket : ".substr(_TOKN,-4)."<br/>Tekan tombol F5 untuk melakukan loading ulang";
 		echo "<div class=\"pesan\">$mess</div>";

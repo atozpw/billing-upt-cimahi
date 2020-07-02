@@ -1,0 +1,20 @@
+C9x0ALPP RINCI PER PELAKSANA KAS - Cimahi Utara
+PENERIMA      : Administrator
+PERIODE       : 2020-06-29
+TANGGAL CETAK : 2020-06-29 20:38:43
+STATUS LOKET  : Tutup
+NO. BULAN  NO.SL       NAMA     GOL LKT PAKAI BIAYA AIR   ANGS. DENDA    TOTAL  
+2 Bulan lalu
+1   201908 100002 Teja Ningsih     1Loket Berjalan    16   54,000       0  15,000   69,000
+2   202002 100051 Max Marcy Sopa   2Loket Berjalan    15   72,500       0  15,000   87,500
+3   202003 100051 Max Marcy Sopa   2Loket Berjalan    14   68,000       0  15,000   83,000
+Bulan Lalu
+4   202004 100051 Max Marcy Sopa   2Loket Berjalan    14   68,000       0   7,500   75,500
+RESUME              :  LBR  PAKAI   BIAYA AIR   ANGSURAN      DENDA       TOTAL
+2 Bulan lalu        :    3     45     194,500          0     45,000     239,500
+Bulan Lalu          :    1     14      68,000          0      7,500      75,500
+Grand Total         :    4     59     262,500     52,500     315,000
+
+
+
+

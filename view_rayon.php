@@ -60,12 +60,12 @@
 			$hint 	= "<div class=\"notice\">Tekan tombol <b>Enter</b> untuk melakukan pencarian data, <b>Up Arrow</b> dan <b>Down Arrow</b> untuk memilih rincian setiap rayon, kemudian <b>Space</b> untuk melihat rinciannya.</div>";
 	}
 	try{
-		if(!$res0 = mysql_query($que0,$link)){
-			throw new Exception(mysql_error($link));
+		if(!$res0 = $link->query($que0)){
+			throw new Exception($link->error);
 		}
 		else{
 			$i = 0;
-			while($row0 = mysql_fetch_array($res0)){
+			while($row0 = $res0->fetch_array()){
 				$data[] = $row0;
 				$i++;
 			}
@@ -80,7 +80,7 @@
 		errorLog::errorDB(array($e->getMessage()));
 		$mess = "Terjadi kesalahan pada sistem<br/>Nomor Tiket : ".substr(_TOKN,-4);
 	}
-	if(!$erno) mysql_close($link);
+	if(!$erno) $link->close();
 ?>
 <input id="<?php echo $errorId; ?>" type="hidden" value="<?php echo $mess; 		?>"/>
 <input type="hidden" class="next_page"	name="pg" value="<?php echo $next_page; ?>"/>

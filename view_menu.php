@@ -57,12 +57,12 @@
 			$kembali	= "";
 	}
 	try{		
-		if(!$res0 = mysql_query($que0,$link)){
+		if(!$res0 = $link->query($que0)){
 			throw new Exception("Terjadi kesalahan pada sistem database<br/>Nomor Tiket : ".substr(_TOKN,-4));
 		}
 		else{
 			$i = 0;
-			while($row0 = mysql_fetch_object($res0)){
+			while($row0 = $res0->fetch_object()){
 				$data[] = $row0;
 				$i++;
 			}
@@ -78,7 +78,7 @@
 		$mess = $e->getMessage();
 		$erno = false;
 	}
-	if(!$erno) mysql_close($link);
+	if(!$erno) $link->close();
 	echo $param;
 	unset($param);
 ?>

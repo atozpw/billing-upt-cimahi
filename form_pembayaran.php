@@ -32,13 +32,13 @@
 		case "rinci":
 			try{
 				$que0 		= "SELECT *FROM v_dsr WHERE pel_no='$pel_no' ORDER BY rek_thn ASC,rek_bln ASC";
-				if(!$res0 	= mysql_query($que0,$link)){
-					throw new Exception(mysql_error($link));
+				if(!$res0 	= $link->query($que0)){
+					throw new Exception($link->error);
 				}
 				else{
 					$i = 0;
 					$grandTotal	= array(0);
-					while($row0 = mysql_fetch_array($res0)){
+					while($row0 = $res0->fetch_array()){
 						$data[$i] 				= $row0;
 						$data[$i]['rek_adm']	= $row0['rek_adm'];
 						$data[$i]['rek_meter']	= $row0['rek_meter'];
@@ -62,7 +62,7 @@
 				errorLog::errorDB(array($e->getMessage()));
 				$mess = "Terjadi kesalahan pada sistem<br/>Nomor Tiket : ".substr(_TOKN,-4);
 			}
-			if(!$erno) mysql_close($link);
+			if(!$erno) $link->close();
 			if(!isset($data)){
 				$data	= array();
 			}
@@ -139,7 +139,11 @@
 					$nilai	= $data[$i];
 					$konci	= array_keys($nilai);
 					for($j=0;$j<count($konci);$j++){
-						$$konci[$j]	= $nilai[$konci[$j]];
+						if(PHP_VERSION < 7){
+							$$konci[$j]	= $nilai[$konci[$j]];
+						}else{
+							${$konci[$j]} = $nilai[$konci[$j]];
+						}
 					}
 					/* getParam **/
 ?>
@@ -212,10 +216,10 @@
 		default:
 			$que0 	= "SELECT sys_value1 AS noresi FROM system_parameter WHERE sys_param='RESI' AND sys_value='"._USER."'";
 			$que1	= "SELECT MAX(tr_sts) AS tr_sts FROM tr_trans_log WHERE DATE(getTanggal(tr_id))=CURDATE() AND kar_id='"._USER."'";
-			$res0 	= mysql_query($que0,$link);
-			$row0 	= mysql_fetch_array($res0);
-			$res1 	= mysql_query($que1,$link);
-			$row1 	= mysql_fetch_array($res1);
+			$res0 	= $link->query($que0);
+			$row0 	= $res0->fetch_array();
+			$res1 	= $link->query($que1);
+			$row1 	= $res1->fetch_array();
 			$noresi	= $row0['noresi'];
 			$tr_sts	= abs($row1['tr_sts']);
 			switch($tr_sts){

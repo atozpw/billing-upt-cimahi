@@ -7,23 +7,23 @@
 	$que0 	= "SELECT a.dkd_kd,a.pel_no,a.pel_nosl,a.pel_nama,a.pel_alamat,SUM(a.rek_lembar) AS rek_lembar,SUM(a.rek_total) AS rek_total,a.gol_kode,a.kps_ket FROM v_info_pelanggan a WHERE a.rek_lembar>0 AND a.gol_kode='$gol_kode' AND a.kp_kode='".$kopel[0]."' GROUP BY a.pel_no ORDER BY a.kps_ket,SUM(a.rek_lembar) DESC";
 	$que1	= "SELECT * FROM v_reff_tarif WHERE gol_kode='$gol_kode'";
 	try{
-		if(!$res0 = mysql_query($que0,$link)){
+		if(!$res0 = $link->query($que0)){
 			throw new Exception($que0);
 		}
 		else{
 			$i = 0;
-			while($row0 = mysql_fetch_assoc($res0)){
+			while($row0 = $res0->fetch_assoc()){
 				$data[] = $row0;
 				$i++;	
 			}
 			$mess = false;
 		}
 
-		if(!$res1 = mysql_query($que1,$link)){
+		if(!$res1 = $link->query($que1)){
 			throw new Exception($que1);
 		}
 		else{
-			$row1 = mysql_fetch_assoc($res1);			
+			$row1 = $res1->fetch_assoc();			
 			$mess = false;
 		}
 	}

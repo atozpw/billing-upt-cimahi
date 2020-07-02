@@ -28,11 +28,11 @@
 	/* inquiry kota pelayanan */
 	try{
 		$que2 = "SELECT CONCAT(kp_kode,'_',kp_ket) AS kopel,CONCAT('[',kp_kode,'] ',kp_ket) AS kp_ket FROM tr_kota_pelayanan $filtered ORDER BY kp_kode ASC";
-		if(!$res2 = mysql_query($que2,$link)){
+		if(!$res2 = $link->query($que2)){
 			throw new Exception("Terjadi kesalahan pada sistem database<br/>Nomor Tiket : ".substr(_TOKN,-4));
 		}
 		else{
-			while($row2 = mysql_fetch_array($res2)){
+			while($row2 = $res2->fetch_array()){
 				$data2[] = array("kopel"=>$row2['kopel'],"kp_ket"=>$row2['kp_ket']);
 			}
 			$mess = false;
@@ -49,11 +49,11 @@
 	$kopel	= explode("_",$kopel);
 	try{
 		$que4 = "select `b`.`kp_kode` AS `kp_kode`,sum(if(((`a`.`sm_sts` = 1) or (`a`.`sm_sts` = 2)),1,0)) AS `jmlTA`,sum(if((`a`.`sm_sts` = 1),1,0)) AS `jmlDA`,sum(if(((`a`.`sm_kini` - if(`isBerjalan`(`b`.`met_tgl`),`b`.`met_stdbaru`,if(isnull(`d`.`pel_no`),`a`.`sm_lalu`,`d`.`cl_stankini_akhir`))) < 0),1,0)) AS `jmlNA`,sum(if(`getPA`(`a`.`sm_kini`,if(`isBerjalan`(`b`.`met_tgl`),`b`.`met_stdbaru`,if(isnull(`d`.`pel_no`),`a`.`sm_lalu`,`d`.`cl_stankini_akhir`))),1,0)) AS `jmlA`,sum(if(`getPA`(`a`.`sm_kini`,if(`isBerjalan`(`b`.`met_tgl`),`b`.`met_stdbaru`,if(isnull(`d`.`pel_no`),`a`.`sm_lalu`,`d`.`cl_stankini_akhir`))),`getRekTotal`(`b`.`gol_kode`,`b`.`um_kode`,`a`.`sm_bln`,`a`.`sm_thn`,(`a`.`sm_kini` - if(`isBerjalan`(`b`.`met_tgl`),`b`.`met_stdbaru`,if(isnull(`d`.`pel_no`),`a`.`sm_lalu`,`d`.`cl_stankini_akhir`)))),0)) AS `airA`,sum(if(`getPB`(`a`.`sm_kini`,if(`isBerjalan`(`b`.`met_tgl`),`b`.`met_stdbaru`,if(isnull(`d`.`pel_no`),`a`.`sm_lalu`,`d`.`cl_stankini_akhir`))),1,0)) AS `jmlB`,sum(if(`getPB`(`a`.`sm_kini`,if(`isBerjalan`(`b`.`met_tgl`),`b`.`met_stdbaru`,if(isnull(`d`.`pel_no`),`a`.`sm_lalu`,`d`.`cl_stankini_akhir`))),(`a`.`sm_kini` - if(`isBerjalan`(`b`.`met_tgl`),`b`.`met_stdbaru`,if(isnull(`d`.`pel_no`),`a`.`sm_lalu`,`d`.`cl_stankini_akhir`))),0)) AS `volB`,sum(if(`getPB`(`a`.`sm_kini`,if(`isBerjalan`(`b`.`met_tgl`),`b`.`met_stdbaru`,if(isnull(`d`.`pel_no`),`a`.`sm_lalu`,`d`.`cl_stankini_akhir`))),`getRekTotal`(`b`.`gol_kode`,`b`.`um_kode`,`a`.`sm_bln`,`a`.`sm_thn`,(`a`.`sm_kini` - if(`isBerjalan`(`b`.`met_tgl`),`b`.`met_stdbaru`,if(isnull(`d`.`pel_no`),`a`.`sm_lalu`,`d`.`cl_stankini_akhir`)))),0)) AS `airB`,sum(if(`getPC`(`a`.`sm_kini`,if(`isBerjalan`(`b`.`met_tgl`),`b`.`met_stdbaru`,if(isnull(`d`.`pel_no`),`a`.`sm_lalu`,`d`.`cl_stankini_akhir`))),1,0)) AS `jmlC`,sum(if(`getPC`(`a`.`sm_kini`,if(`isBerjalan`(`b`.`met_tgl`),`b`.`met_stdbaru`,if(isnull(`d`.`pel_no`),`a`.`sm_lalu`,`d`.`cl_stankini_akhir`))),(`a`.`sm_kini` - if(`isBerjalan`(`b`.`met_tgl`),`b`.`met_stdbaru`,if(isnull(`d`.`pel_no`),`a`.`sm_lalu`,`d`.`cl_stankini_akhir`))),0)) AS `volC`,sum(if(`getPC`(`a`.`sm_kini`,if(`isBerjalan`(`b`.`met_tgl`),`b`.`met_stdbaru`,if(isnull(`d`.`pel_no`),`a`.`sm_lalu`,`d`.`cl_stankini_akhir`))),`getRekTotal`(`b`.`gol_kode`,`b`.`um_kode`,`a`.`sm_bln`,`a`.`sm_thn`,(`a`.`sm_kini` - if(`isBerjalan`(`b`.`met_tgl`),`b`.`met_stdbaru`,if(isnull(`d`.`pel_no`),`a`.`sm_lalu`,`d`.`cl_stankini_akhir`)))),0)) AS `airC` from ((`tm_stand_meter` `a` join `tm_pelanggan` `b` on(((`b`.`pel_no` = `a`.`pel_no`) and `isActive`(`b`.`kps_kode`)))) left join `tm_klaim` `d` on(((`d`.`pel_no` = `a`.`pel_no`) and (month(`d`.`cl_tgl`) = `a`.`sm_bln`) and (year(`d`.`cl_tgl`) = `a`.`sm_thn`) and (`d`.`cl_sts` = 1)))) where ((`a`.`sm_bln` = month(now())) and (`a`.`sm_thn` = year(now())) and `b`.`kp_kode`='".$kopel[0]."') group by `b`.`kp_kode`";
-		if(!$res4 = mysql_query($que4,$link)){
+		if(!$res4 = $link->query($que4)){
 			throw new Exception("Terjadi kesalahan pada sistem database<br/>Nomor Tiket : ".substr(_TOKN,-4));
 		}
 		else{
-			while($row4 = mysql_fetch_array($res4)){
+			while($row4 = $res4->fetch_array()){
 				$data4[] = $row4;
 			}
 			$mess = false;

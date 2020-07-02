@@ -18,11 +18,11 @@
 	
 	try{
 		$que3 = "SELECT CONCAT(kp_kode,'_',kp_ket) AS kopel,CONCAT('[',kp_kode,'] ',kp_ket) AS kp_ket FROM tr_kota_pelayanan $filtered ORDER BY kp_kode ASC";
-		if(!$res3 = mysql_query($que3,$link)){
+		if(!$res3 = $link->query($que3)){
 			throw new Exception("Terjadi kesalahan pada sistem database<br/>Nomor Tiket : ".substr(_TOKN,-4));
 		}
 		else{
-			while($row3 = mysql_fetch_array($res3)){
+			while($row3 = $res3->fetch_array()){
 				$data3[] = array("kopel"=>$row3['kopel'],"kp_ket"=>$row3['kp_ket']);
 			}
 			$mess = false;
@@ -38,11 +38,11 @@
 	/* inquiry karyawan */
 	try{
 		$que2 = "SELECT kar_id,kar_nama FROM tm_karyawan WHERE grup_id='002' ORDER BY kar_nama";
-		if(!$res2 = mysql_query($que2,$link)){
+		if(!$res2 = $link->query($que2)){
 			throw new Exception("Terjadi kesalahan pada sistem database<br/>Nomor Tiket : ".substr(_TOKN,-4));
 		}
 		else{
-			while($row2 = mysql_fetch_array($res2)){
+			while($row2 = $res2->fetch_array()){
 				$data2[] = array("kar_id"=>$row2['kar_id'],"kar_nama"=>$row2['kar_nama']);
 			}
 			$mess = false;

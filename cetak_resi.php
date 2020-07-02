@@ -3,11 +3,11 @@
 	$formId = getToken();
 	$que0 	= "SELECT byr_no,b.pel_nama,b.pel_alamat,b.pel_no,b.rek_gol,b.dkd_kd,rek_bln,rek_thn,rek_stanlalu,rek_stankini,rek_total,rek_denda,rek_materai,rek_uangair,rek_adm,rek_meter,byr_tgl,lok_ip,a.kar_id,dkd_tcatat FROM tm_pembayaran a JOIN tm_rekening b ON a.rek_nomor=b.rek_nomor JOIN tm_pelanggan c ON b.pel_no=c.pel_no JOIN tr_kota_pelayanan d ON c.kp_kode=d.kp_kode JOIN tr_dkd e ON b.dkd_kd=e.dkd_kd WHERE a.byr_no='$byr_no'";
 	try{
-		if(!$res0 = mysql_query($que0,$link)){
+		if(!$res0 = $link->query($que0)){
 			throw new Exception($que0);
 		}
 		else{
-			while($row0 = mysql_fetch_array($res0)){
+			while($row0 = $res0->fetch_array()){
 				$data[] = $row0;
 			}
 			$mess = false;

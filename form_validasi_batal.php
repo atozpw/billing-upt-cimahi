@@ -39,11 +39,11 @@
 					$pel_no	= substr($pel_no,0,2).".".substr($pel_no,2,2).".".substr($pel_no,4,3).".".substr($pel_no,7,3);
 					$que0 	= "SELECT a.*,b.ba_no FROM v_lpp a JOIN tm_pembatalan b ON(b.byr_no=a.byr_no AND b.rek_nomor=a.rek_nomor AND b.btl_sts=2) WHERE a.pel_no='$pel_no' AND DATE(a.byr_tgl)=CURDATE() ORDER BY a.rek_thn ASC,a.rek_bln ASC";
 				}
-				if(!$res0 = mysql_query($que0,$link)){
-					throw new Exception(mysql_error($link));
+				if(!$res0 = $link->query($que0)){
+					throw new Exception($link->error);
 				}
 				else{
-					while($row0 = mysql_fetch_array($res0)){
+					while($row0 = $res0->fetch_array()){
 						$data[] 		= $row0;
 						$grandTotal[]	= $row0['rek_total'] + $row0['rek_denda'] + $row0['rek_materai'];
 						$pel_nama		= $row0['pel_nama'];
@@ -60,7 +60,7 @@
 				errorLog::errorDB(array($que0));
 				$mess = "Terjadi kesalahan pada sistem<br/>Nomor Tiket : ".substr(_TOKN,-4);
 			}
-			if(!$erno) mysql_close($link);
+			if(!$erno) $link->close();
 ?>
 <input type="hidden" id="keyProses1" value="F" />
 <input type="hidden" id="jumlahForm" value="1" />

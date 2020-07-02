@@ -23,13 +23,13 @@
 				/* hitung perubahan rekening air */
 				try{
 					$que0 = "CALL p_hitung_rekening('$rek_gol','$rek_bln','$rek_thn','$pakai_reduksi','1',@b_air,@b_adm,@b_meter)";
-					if(!$res0 = mysql_query($que0,$link)){
+					if(!$res0 = $link->query($que0)){
 						throw new Exception($que0);
 					}
 					else{
 						$que2 				= "SELECT @b_air AS reduksi_uangair";
-						$res2 				= mysql_query($que2,$link);
-						$row2 				= mysql_fetch_array($res2);
+						$res2 				= $link->query($que2);
+						$row2 				= $res2->fetch_array();
 						$reduksi_uangair 	= $row2['reduksi_uangair'];
 						$reduksi_total 		= $reduksi_uangair + $rek_beban;
 						$mess 				= false;
@@ -193,13 +193,13 @@
 			/* 1. retrieve data pelanggan */
 			$que0 = "SELECT *FROM v_data_pelanggan WHERE pel_no='$pel_no' AND kp_kode='$kp_kode'";
 			try{
-				if(!$res0 = mysql_query($que0,$link)){
-					throw new Exception(mysql_error());
+				if(!$res0 = $link->query($que0)){
+					throw new Exception($link->error);
 				}
 				else{
 					$form1	= true;
 					$i 		= 0;
-					while($row0 = mysql_fetch_array($res0)){
+					while($row0 = $res0->fetch_array()){
 						$data0[] = $row0;
 						$i++;
 					}
@@ -217,13 +217,13 @@
 			/* 2. retrieve catatan reduksi */
 			try {
 				$que1 = "SELECT *FROM tm_reduksi WHERE pel_no='$pel_no' AND ABS(SUBSTR(rek_nomor,5,2))=$rek_bln AND SUBSTR(rek_nomor,1,4)=$rek_thn ORDER BY rd_tgl DESC";
-				if(!$res1 = mysql_query($que1,$link)){
-					throw new Exception(mysql_error());
+				if(!$res1 = $link->query($que1)){
+					throw new Exception($link->error);
 				}
 				else{
 					$form2	= true;
 					$i 		= 0;
-					while($row1 = mysql_fetch_array($res1)){
+					while($row1 = $res1->fetch_array()){
 						$data1[] = $row1;
 						$i++;	
 					}
@@ -240,13 +240,13 @@
 			/* 3. retrive dsr awal */
 			try {
 				$que2 = "SELECT *FROM tm_rekening WHERE pel_no='$pel_no' AND rek_bln=$rek_bln AND rek_thn=$rek_thn ORDER BY rek_tgl ASC LIMIT 1";
-				if(!$res2 = mysql_query($que2,$link)){
+				if(!$res2 = $link->query($que2)){
 					throw new Exception($que2);
 				}
 				else{
 					$form3	= true;
 					$i 		= 0;
-					while($row2 = mysql_fetch_array($res2)){
+					while($row2 = $res2->fetch_array()){
 						$data2[] 		= $row2;
 						$beban_tetap 	= $row2['rek_adm'] + $row2['rek_meter'];
 						$angsuran 		= $row2['rek_angsuran'];
@@ -263,7 +263,7 @@
 				$mess = $e->getMessage();
 				errorLog::errorDB(array($mess));
 			}
-			mysql_close($link);
+			$link->close();
 			/* form data pelanggan */
 			if($form1){
 				for($i=0;$i<count($data0);$i++){

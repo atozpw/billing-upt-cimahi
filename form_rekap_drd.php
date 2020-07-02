@@ -16,11 +16,11 @@
 	/* inquiry kota pelayanan */
 	try{
 		$que2 = "SELECT CONCAT(kp_kode,'_',kp_ket) AS kopel,CONCAT('[',kp_kode,'] ',kp_ket) AS kp_ket FROM tr_kota_pelayanan $filtered ORDER BY kp_kode ASC";
-		if(!$res2 = mysql_query($que2,$link)){
+		if(!$res2 = $link->query($que2)){
 			throw new Exception("Terjadi kesalahan pada sistem database<br/>Nomor Tiket : ".substr(_TOKN,-4));
 		}
 		else{
-			while($row2 = mysql_fetch_array($res2)){
+			while($row2 = $res2->fetch_array()){
 				$data2[] = array("kopel"=>$row2['kopel'],"kp_ket"=>$row2['kp_ket']);
 			}
 			$mess = false;
@@ -65,11 +65,11 @@
 			$parm3 		= array("class"=>"cetak","name"=>"gol_kode","selected"=>NULL);
 			try{
 				$que3 = "SELECT gol_kode,CONCAT('[',gol_kode,'] ',gol_ket) AS gol_ket FROM tr_gol ORDER BY gol_kode ASC";
-				if(!$res3 = mysql_query($que3,$link)){
+				if(!$res3 = $link->query($que3)){
 					throw new Exception("Terjadi kesalahan pada sistem database<br/>Nomor Tiket : ".substr(_TOKN,-4));
 				}
 				else{
-					while($row3 = mysql_fetch_array($res3)){
+					while($row3 = $res3->fetch_array()){
 						$data3[] = array("gol_kode"=>$row3['gol_kode'],"gol_ket"=>$row3['gol_ket']);
 					}
 					$mess = false;
@@ -222,12 +222,12 @@
 			$hint 	= "<div class=\"notice\">Tekan tombol <b>Enter</b> untuk melakukan pencarian data, <b>Up Arrow</b> dan <b>Down Arrow</b> untuk memilih rincian setiap rayon, kemudian <b>Space</b> untuk melihat rinciannya.</div>";
 			
 			try{
-				if(!$res0 = mysql_query($que0,$link)){
-					throw new Exception(mysql_error($link));
+				if(!$res0 = $link->query($que0)){
+					throw new Exception($link->error);
 				}
 				else{
 					$i = 0;
-					while($row0 = mysql_fetch_array($res0)){
+					while($row0 = $res0->fetch_array()){
 						$data[] = $row0;
 						$i++;
 					}
@@ -318,12 +318,12 @@
 			$hint 	= "<div class=\"notice\">Tekan tombol <b>Enter</b> untuk melakukan pencarian data, <b>Up Arrow</b> dan <b>Down Arrow</b> untuk memilih rincian setiap rayon, kemudian <b>Space</b> untuk melihat rinciannya.</div>";
 			
 			try{
-				if(!$res0 = mysql_query($que0,$link)){
-					throw new Exception(mysql_error($link));
+				if(!$res0 = $link->query($que0)){
+					throw new Exception($link->error);
 				}
 				else{
 					$i = 0;
-					while($row0 = mysql_fetch_array($res0)){
+					while($row0 = $res0->fetch_array()){
 						$data[] = $row0;
 						$i++;
 					}
@@ -418,12 +418,12 @@
 			$hint 	= "<div class=\"notice\">Tekan tombol <b>Enter</b> untuk melakukan pencarian data, <b>Up Arrow</b> dan <b>Down Arrow</b> untuk memilih rincian setiap rayon, kemudian <b>Space</b> untuk melihat rinciannya.</div>";
 			
 			try{
-				if(!$res0 = mysql_query($que0,$link)){
-					throw new Exception(mysql_error($link));
+				if(!$res0 = $link->query($que0)){
+					throw new Exception($link->error);
 				}
 				else{
 					$i = 0;
-					while($row0 = mysql_fetch_array($res0)){
+					while($row0 = $res0->fetch_array()){
 						$data[] = $row0;
 						$i++;
 					}
@@ -536,5 +536,5 @@
 </div>
 <?php
 	}
-	if(!$erno) mysql_close($link);
+	if(!$erno) $link->close();
 ?>

@@ -1,14 +1,14 @@
 <?php
 	/* link tulis */
-	$PHOST	= "103.75.237.45";
+	$PHOST	= "127.0.0.1";
 	$PUSER	= "root";
-	$PPASS	= "pohodeui";
-	$PNAME	= "pdam_billing_upt_cimahi";
+	$PPASS	= "";
+	$PNAME	= "pdam_uptcimahi";
 	/* link baca */
-	$DHOST	= "103.75.237.45";
+	$DHOST	= "127.0.0.1";
 	$DUSER	= "root";
-	$DPASS	= "pohodeui";
-	$DNAME	= "pdam_billing_upt_cimahi";
+	$DPASS	= "";
+	$DNAME	= "pdam_uptcimahi";
 	
 	/** konfigurasi PDO */
 	$PSPDO[0]	= "mysql:dbname=".$PNAME.";host=".$PHOST;

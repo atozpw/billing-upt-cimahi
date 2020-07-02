@@ -72,11 +72,15 @@
 								memindahkan semua nilai dalam array POST ke dalam
 								variabel yang bersesuaian dengan masih kunci array
 							*/
-							$res0 	= mysql_query($que0,$link);
-							$nilai	= mysql_fetch_array($res0);
+							$res0 	= $link->query($que0);
+							$nilai	= $res0->fetch_array();
 							$konci	= array_keys($nilai);
 							for($k=0;$k<count($konci);$k++){
-								$$konci[$k]	= $nilai[$konci[$k]];
+								if(PHP_VERSION < 7){
+									$$konci[$k]	= $nilai[$konci[$k]];
+								}else{
+									${$konci[$k]} = $nilai[$konci[$k]];
+								}
 							}
 							/* getParam **/
 							$o_awalA	= " ";

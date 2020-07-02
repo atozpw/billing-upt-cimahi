@@ -38,11 +38,11 @@
 	else{
 		$que0	= "SELECT IFNULL(MAX(tr_sts),0) AS tr_sts FROM tr_trans_log WHERE kar_id='"._USER."' AND DATE(getTanggal(tr_id))=CURDATE()";
 		try{
-			if(!$res0 = mysql_query($que0,$link)){
-				throw new Exception(mysql_error($link));
+			if(!$res0 = $link->query($que0)){
+				throw new Exception($link->error);
 			}
 			else{
-				$row0 	= mysql_fetch_array($res0);
+				$row0 	= $res0->fetch_array();
 				$tr_sts	= $row0['tr_sts'];
 				unset($mess);
 			}
@@ -52,7 +52,7 @@
 			errorLog::logMess(array($e->getMessage()));
 			$mess = "Terjadi kesalahan pada sistem<br/>Nomor Tiket : ".substr(_TOKN,-4);
 		}
-		if(!$erno) mysql_close($link);
+		if(!$erno) $link->close();
 		
 		$stsLoket = true;
 		if($tr_sts==4){

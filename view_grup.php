@@ -17,12 +17,12 @@
 			$que0 	= "SELECT grup_id,grup_nama FROM tm_group WHERE grup_id!='000' ORDER BY grup_id LIMIT $limit_awal,$jml_perpage";
 	}
 	try{		
-		if(!$res0 = mysql_query($que0,$link)){
+		if(!$res0 = $link->query($que0)){
 			throw new Exception("Terjadi kesalahan pada sistem database<br/>Nomor Tiket : ".substr(_TOKN,-4));
 		}
 		else{
 			$i = 0;
-			while($row0 = mysql_fetch_object($res0)){
+			while($row0 = $res0->fetch_object()){
 				$data[] = $row0;
 				$i++;
 			}
@@ -38,7 +38,7 @@
 		$mess = $e->getMessage();
 		$erno = false;
 	}
-	if(!$erno) mysql_close($link);
+	if(!$erno) $link->close();
 ?>
 <input type="hidden" id="keyProses1" value="A" />
 <input type="hidden" class="next_page pref_page cari refresh tambah kembali" name="targetId" 	value="content"/>

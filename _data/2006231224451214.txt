@@ -1,0 +1,9 @@
+C9Mx0ADAFTAR TAGIHAN REKENING AIR
+NO. SAMBUNGAN  : 100001
+NAMA         : Sutrisno                                GOLONGAN     : 1
+ALAMAT       : Ciawitali Selatan No.27 RT 04 RW 19     RAYON        : 11219
+ Tagihan        Stand Meter                  Rincian Biaya                Total
+            Lalu  Kini Pakai    Uang Air  Beban Angsuran      Denda            
+ 1. 202003   534   549    15      18,000 15,000        0     15,000      48,000
+ 2. 202004   549   564    15      35,500 15,000        0      7,500      58,000
+                                53,500   30,000        0     22,500     106,000

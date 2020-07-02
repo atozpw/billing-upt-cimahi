@@ -19,16 +19,16 @@
 	$kopel	= explode("_",$kopel);
 	try{
         $que0	= "CREATE TEMPORARY TABLE tmp_$formId SELECT *FROM v_pengumuran_piutang WHERE kp_kode='".$kopel[0]."' ".$kondisi;
-		if(!mysql_query($que0,$link)){
-			throw new Exception(mysql_error($link));
+		if(!$link->query($que0)){
+			throw new Exception($link->error);
 		}
         	$que0 	= "SELECT rek_gol,SUM(pel_jumlahA) AS pel_jumlahA,SUM(rek_lembarA) AS rek_lembarA,SUM(rek_pakaiA) AS rek_pakaiA,SUM(rek_totalA) AS rek_totalA,SUM(pel_jumlahB) AS pel_jumlahB,SUM(rek_lembarB) AS rek_lembarB,SUM(rek_pakaiB) AS rek_pakaiB,SUM(rek_totalB) AS rek_totalB,SUM(pel_jumlahC) AS pel_jumlahC,SUM(rek_lembarC) AS rek_lembarC,SUM(rek_pakaiC) AS rek_pakaiC,SUM(rek_totalC) AS rek_totalC,SUM(pel_jumlahD) AS pel_jumlahD,SUM(rek_lembarD) AS rek_lembarD,SUM(rek_pakaiD) AS rek_pakaiD,SUM(rek_totalD) AS rek_totalD,SUM(pel_jumlahE) AS pel_jumlahE,SUM(rek_lembarE) AS rek_lembarE,SUM(rek_pakaiE) AS rek_pakaiE,SUM(rek_totalE) AS rek_totalE FROM tmp_$formId GROUP BY rek_gol";
-		if(!$res0 = mysql_query($que0,$link)){
-			throw new Exception(mysql_error($link));
+		if(!$res0 = $link->query($que0)){
+			throw new Exception($link->error);
 		}
 		else{
 			$i = 0;
-			while($row0 = mysql_fetch_array($res0)){
+			while($row0 = $res0->fetch_array()){
 				$data[] = $row0;
 				$i++;	
 			}
@@ -97,6 +97,9 @@
 		<td class="center prn_cell prn_center prn_bold">Rupiah</td>
     </tr>
 <?php
+	if(!isset($data)){
+		$data	= array();
+	}
 	for($i=0;$i<count($data);$i++){
 		$nomor		= $i+1;
 		$row0 	  	= $data[$i];

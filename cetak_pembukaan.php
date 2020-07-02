@@ -14,12 +14,13 @@
 		$que0 	= "SELECT a.* FROM v_pembukaan a WHERE a.bulan=$rek_bln AND a.tahun=$rek_thn AND a.kp_kode='".$kopel[0]."' ORDER BY a.gol_kode";
 	}
 	try{
-		if(!$res0 = mysql_query($que0,$link)){
+		if(!$res0 = $link->query($que0)){
 			throw new Exception($que0);
 		}
 		else{
 			$i = 0;
-			while($row0 = mysql_fetch_array($res0)){
+			$data = array();
+			while($row0 = $res0->fetch_array()){
 				$data[] = $row0;
 				$i++;	
 			}

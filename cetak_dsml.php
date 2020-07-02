@@ -4,11 +4,11 @@
 
 	$que0 	= "SELECT a.* FROM v_dsml a WHERE a.dkd_kd='$dkd_kd' ORDER BY a.dkd_no,a.pel_no";
 	try{
-		if(!$res0 = mysql_query($que0,$link)){
+		if(!$res0 = $link->query($que0)){
 			throw new Exception($que0);
 		}
 		else{
-			while($row0 = mysql_fetch_array($res0)){
+			while($row0 = $res0->fetch_array()){
 				$data[] = $row0;
 			}
 			$mess = false;

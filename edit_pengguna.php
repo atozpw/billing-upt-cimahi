@@ -30,9 +30,9 @@
 	if(!$noQue){
 		/* proc : link tulis */
 		$mess 	= "user : ".$PUSER." tidak bisa terhubung ke server : ".$PHOST;
-		$proc 	= mysql_connect($PHOST,$PUSER,$PPASS) or die(errorLog::errorDie(array($mess)));
+		$proc 	= mysqli_connect($PHOST,$PUSER,$PPASS,$PNAME) or die(errorLog::errorDie(array($mess)));
 		try{
-			if(!mysql_select_db($PNAME,$proc)){
+			if(!$proc){
 				throw new Exception("user : ".$PUSER." tidak bisa terhubung ke database : ".$PNAME);
 			}
 		}
@@ -42,17 +42,17 @@
 			$klas = "error";
 		}
 		try{
-			if(!$res0 = mysql_query($que0,$proc)){
-				throw new Exception(mysql_error($proc));
+			if(!$res0 = $proc->query($que0)){
+				throw new Exception($proc->error);
 			}
 			else{
 				errorLog::logDB(array($que0));
 			}
-			if(!$res1 = mysql_query($que1,$proc)){
+			if(!$res1 = $proc->query($que1)){
 				throw new Exception($que1);
 			}
 			else{
-				$row1 = mysql_fetch_array($res1);
+				$row1 = $res1->fetch_array();
 				if(!$mess = $row1['mess'])
 					$mess = false;
 				$klas = "notice";
@@ -66,7 +66,7 @@
 		echo "<input type=\"hidden\" id=\"$errorId\" value=\"$mess\"/>";
 		if($note)
 			echo "<fieldset class=\"$klas\">$mess</fieldset>";
-		mysql_close($proc);
+			$proc->close();
 		errorLog::logMess(array($mess));
 	}
 ?>

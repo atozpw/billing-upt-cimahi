@@ -8,11 +8,11 @@
 	/* inquiry karyawan */
 	try{
 		$que2 = "SELECT kar_id,kar_nama FROM tm_karyawan WHERE grup_id='002' ORDER BY kar_nama";
-		if(!$res2 = mysql_query($que2,$link)){
+		if(!$res2 = $link->query($que2)){
 			throw new Exception("Terjadi kesalahan pada sistem database<br/>Nomor Tiket : ".substr(_TOKN,-4));
 		}
 		else{
-			while($row2 = mysql_fetch_array($res2)){
+			while($row2 = $res2->fetch_array()){
 				$data2[] = array("kar_id"=>$row2['kar_id'],"kar_nama"=>$row2['kar_nama']);
 			}
 			$mess = false;

@@ -67,12 +67,12 @@
 			$hint 	= "<div class=\"notice cetak\">Tekan tombol <b>Enter</b> untuk melakukan pencarian data, <b>Up Arrow</b> dan <b>Down Arrow</b> untuk memilih rincian setiap rayon, kemudian <b>Space</b> untuk melihat rinciannya.</div>";
 	}
 	try{
-		if(!$res0 = mysql_query($que0,$link)){
-			throw new Exception(mysql_error($link));
+		if(!$res0 = $link->query($que0)){
+			throw new Exception($link->error);
 		}
 		else{
 			$i = 0;
-			while($row0 = mysql_fetch_array($res0)){
+			while($row0 = $res0->fetch_array()){
 				$data[] = $row0;
 				$i++;
 			}
@@ -97,11 +97,11 @@
 				else{
 					$que0 = "SELECT a.dkd_jalan,a.dkd_tcatat,COUNT(b.dkd_kd) AS jml FROM tr_dkd a JOIN tm_pelanggan b ON(b.dkd_kd=a.dkd_kd) WHERE getAktive(b.kps_kode)=1 AND b.dkd_kd='$dkd_kd' GROUP BY a.dkd_kd";
 				}
-				if(!$res0 = mysql_query($que0,$link)){
-					throw new Exception(mysql_error($link));
+				if(!$res0 = $link->query($que0)){
+					throw new Exception($link->error);
 				}
 				else{
-					$row0 = mysql_fetch_object($res0);
+					$row0 = $res0->fetch_object();
 				}
 			}
 			catch (Exception $e){
@@ -118,11 +118,11 @@
 <?php
 			try{
 				$que2 = "SELECT kwm_kd,UPPER(kwm_ket) AS kwm_ket FROM tr_kondisi_wm ORDER BY kwm_kd";
-				if(!$res2 = mysql_query($que2,$link)){
-					throw new Exception(mysql_error($link));
+				if(!$res2 = $link->query($que2)){
+					throw new Exception($link->error);
 				}
 				else{
-					while($row2 = mysql_fetch_array($res2)){
+					while($row2 = $res2->fetch_array()){
 						$data2[] = array("kwm_kd"=>$row2['kwm_kd'], "kwm_ket"=>strtoupper($row2['kwm_ket']));
 					}
 				}
@@ -135,11 +135,11 @@
 			
 			try{
 			$que3 = "SELECT kl_kd,UPPER(kl_ket) AS kl_ket FROM tr_kondisi_lingkungan ORDER BY kl_kd";
-				if(!$res3 = mysql_query($que3,$link)){
-					throw new Exception(mysql_error($link));
+				if(!$res3 = $link->query($que3)){
+					throw new Exception($link->error);
 				}
 				else{
-					while($row3 = mysql_fetch_array($res3)){
+					while($row3 = $res3->fetch_array()){
 						$data3[] = array("kl_kd"=>$row3['kl_kd'], "kl_ket"=>strtoupper($row3['kl_ket']));
 					}
 				}
@@ -202,7 +202,11 @@
 					$nilai	= $data[($i-1)];
 					$konci	= array_keys($nilai);
 					for($j=0;$j<count($konci);$j++){
-						$$konci[$j]	= $nilai[$konci[$j]];
+						if(PHP_VERSION < 7){
+							$$konci[$j]	= $nilai[$konci[$j]];
+						}else{
+							${$konci[$j]} = $nilai[$konci[$j]];
+						}
 					}
 
 					$parm2 	= array("class"=>"simpan","name"=>"kwm_kd[$i]","selected"=>$kwm_kd,"onchange"=>"setUbah($i)","style"=>"font-size: 9pt");
@@ -324,5 +328,5 @@
 <input id="aktiveForm" type="hidden" value="0"/>
 <?php
 	}
-	if(!$erno) mysql_close($link);
+	if(!$erno) $link->close();
 ?>

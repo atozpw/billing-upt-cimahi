@@ -1,0 +1,14 @@
+C9x0ALPP REKAP SELURUH KASIR - CIMAHI UTARA
+PENERIMA      : Administrator
+PERIODE       : 2020-06-29
+TANGGAL CETAK : 2020-06-29 20:40:27
+STATUS LOKET  : Tutup
+________________________________________________________________________________
+         KASIR  JML  PAKAI    UANG AIR     BEBAN   ANGS.      DENDA       TOTAL
+2 BULAN LALU
+ ADMINISTRATOR    3     45     149,500    45,000       0     45,000     239,500
+BULAN LALU
+ ADMINISTRATOR    1     14      53,000    15,000       0      7,500      75,500
+2 BULAN LALU      3     45     149,500    45,000       0     45,000     239,500
+BULAN LALU        1     14      53,000    15,000       0      7,500      75,500
+GRAND TOTAL       4     59     202,500    60,000       0     52,500     315,000

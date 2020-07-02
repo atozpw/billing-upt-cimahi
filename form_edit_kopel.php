@@ -8,11 +8,11 @@
 	/* inquiry cabang */
 	try{
 		$que3 = "SELECT CONCAT(cab_kode,'_',cab_ket) AS kopel,CONCAT('[',cab_kode,'] ',cab_ket) AS cab_ket FROM tr_cabang $filtered ORDER BY cab_kode ASC";
-		if(!$res3 = mysql_query($que3,$link)){
+		if(!$res3 = $link->query($que3)){
 			throw new Exception("Terjadi kesalahan pada sistem database<br/>Nomor Tiket : ".substr(_TOKN,-4));
 		}
 		else{
-			while($row3 = mysql_fetch_array($res3)){
+			while($row3 = $res3->fetch_array()){
 				$data3[] = array("kopel"=>$row3['kopel'],"cab_ket"=>$row3['cab_ket']);
 			}
 			$mess = false;

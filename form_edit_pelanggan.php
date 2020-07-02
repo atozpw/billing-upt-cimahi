@@ -5,11 +5,11 @@
 	/* inquiry rayon */
 	try{
 		$que2 = "SELECT dkd_kd,CONCAT('[',dkd_kd,']',' ',IFNULL(dkd_jalan,'N/A')) AS dkd_jalan FROM v_rayon WHERE kp_kode='$kp_kode' ORDER BY dkd_kd";
-		if(!$res2 = mysql_query($que2,$link)){
+		if(!$res2 = $link->query($que2)){
 			throw new Exception("Terjadi kesalahan pada sistem database<br/>Nomor Tiket : ".substr(_TOKN,-4));
 		}
 		else{
-			while($row2 = mysql_fetch_array($res2)){
+			while($row2 = $res2->fetch_array()){
 				$data2[] = array("dkd_kd"=>$row2['dkd_kd'],"dkd_jalan"=>$row2['dkd_jalan']);
 			}
 			$mess = false;
@@ -39,11 +39,11 @@
 			}
 			try{
 				$que0 = "SELECT kp_kode,kp_ket FROM tr_kota_pelayanan $filtered ORDER BY kp_kode";
-				if(!$res0 = mysql_query($que0,$link)){
+				if(!$res0 = $link->query($que0)){
 					throw new Exception("Terjadi kesalahan pada sistem database<br/>Nomor Tiket : ".substr(_TOKN,-4));
 				}
 				else{
-					while($row0 = mysql_fetch_array($res0)){
+					while($row0 = $res0->fetch_array()){
 						$data0[] = array("kp_kode"=>$row0['kp_kode'],"kp_ket"=>$row0['kp_ket']);
 					}
 					$mess = false;
@@ -63,11 +63,11 @@
 			}
 			try{
 				$que1 = "SELECT gol_kode,CONCAT('[',gol_kode,']',' ',gol_ket) AS gol_ket FROM tr_gol ".$filtered." ORDER BY gol_kode";
-				if(!$res1 = mysql_query($que1,$link)){
+				if(!$res1 = $link->query($que1)){
 					throw new Exception("Terjadi kesalahan pada sistem database<br/>Nomor Tiket : ".substr(_TOKN,-4));
 				}
 				else{
-					while($row1 = mysql_fetch_array($res1)){
+					while($row1 = $res1->fetch_array()){
 						$data1[] = array("gol_kode"=>$row1['gol_kode'],"gol_ket"=>$row1['gol_ket']);
 					}
 					$mess = false;
@@ -101,11 +101,11 @@
 			}
 			try{
 				$que3 = "SELECT kps_kode,UPPER(kps_ket) AS kps_ket FROM tr_kondisi_ps ".$filtered." ORDER BY kps_kode";
-				if(!$res3 = mysql_query($que3,$link)){
+				if(!$res3 = $link->query($que3)){
 					throw new Exception("Terjadi kesalahan pada sistem database<br/>Nomor Tiket : ".substr(_TOKN,-4));
 				}
 				else{
-					while($row3 = mysql_fetch_array($res3)){
+					while($row3 = $res3->fetch_array()){
 						$data3[] = array("kps_kode"=>$row3['kps_kode'],"kps_ket"=>$row3['kps_ket']);
 					}
 					$mess = false;
@@ -121,11 +121,11 @@
 			/* pilih ukuran meter */
 			try{
 				$que4 	= "SELECT um_kode,CONCAT(um_ukuran,' inch') AS um_ukuran FROM tr_ukuranmeter ORDER BY um_kode";
-				if(!$res4 = mysql_query($que4,$link)){
+				if(!$res4 = $link->query($que4)){
 					throw new Exception("Terjadi kesalahan pada sistem database<br/>Nomor Tiket : ".substr(_TOKN,-4));
 				}
 				else{
-					while($row4 = mysql_fetch_array($res4)){
+					while($row4 = $res4->fetch_array()){
 						$data4[] = array("um_kode"=>$row4['um_kode'],"um_ukuran"=>$row4['um_ukuran']);
 					}
 				}

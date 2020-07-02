@@ -2,11 +2,11 @@
 	if($erno) die();
 	$que0 = "SELECT sys_value FROM system_parameter WHERE sys_param='DENDA'";
 	try{
-		if(!$res0 = mysql_query($que0,$link)){
-			throw new Exception(mysql_error($link));
+		if(!$res0 = $link->query($que0)){
+			throw new Exception($link->error);
 		}
 		else{
-			$row0 = mysql_fetch_array($res0);
+			$row0 = $res0->fetch_array();
 			$tgl_denda = $row0['sys_value'];
 		}
 	}
